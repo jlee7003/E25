@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+   <font size=1> 이의호의 홈페이지 </font>
+ <table width= "400" height= "20" border="1" bordercolor="gold">
+<tr>
+  <td><a href="test.html">  test </pre> </a> <p></td> 
+ <td><a href="ultest.html"> ultest </a> <p></td> 
+<td><a href="index.php"> index </a> <p></td>
+<td><a href="link.html"> link </a> <p></td>
+<td><a href="table.html"> table </a></td>
+<td><a href="Tutorial.html"> Tutorial</a></td>
+<td><a href="image.html"> image </a></td>
+<tr></center>
+</table > <hr>
+
+
+  <img src=../naver.jpg width="400" height="200" alt="네이버로고" align=top> 네이버로고다.
+  <img src="https://blog.naver.com/seulani4641/221227767082.jpg"/>
+  <hr><!-- img 태그에서 align 속성은 top middle bottom
+ </body>
+</html>

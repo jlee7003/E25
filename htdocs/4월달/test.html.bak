@@ -1,0 +1,72 @@
+ <!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>이의호의 페이지</title>
+ </head>
+ <body>
+
+   <font size=1> 이의호의 홈페이지 </font>
+ <table width= "400" height= "20" border="1" bordercolor="gold">
+<tr>
+  <td><a href="test.html">  test </pre> </a> <p></td> 
+ <td><a href="ultest.html"> ultest </a> <p></td> 
+<td><a href="index.php"> index </a> <p></td>
+<td><a href="link.html"> link </a> <p></td>
+<td><a href="table.html"> table </a></td>
+<td><a href="Tutorial.html"> Tutorial</a></td>
+<tr></center>
+
+
+
+ <ol>
+   <li><h1> 이의호의 페이지 </h1></li>
+  <hr>
+
+  <li><h2> 이의호 </h2>
+  <li><h3> 이의호 </h3>
+ <li> <h4> 이의호 </h4>
+  <li><h5> 이의호 </h5>
+ <li> <h6> 이의호 </h6>
+  <li><big> 이의호의 페이지 </big>
+  이의호
+  <small> 이의호 </small>
+ </li>
+  </ol>
+<hr>
+
+
+  <h1> 1.한국음식 <p></h1>
+
+  <hr> 비빔밥 </hr> <br> 
+  된장찌개 <br>
+  김치찌개<br>
+  파전<br> 
+  보쌈<br> 
+  <br> <br> <br> <br>
+
+<i> anthony </i> <p>
+<ins> brown </ins><p>
+<sub> hello </sub>
+<sup> turtle </sup><p>
+<del> bear </del><p>
+H<sub>2</sub>O <p>
+2<sup>n</sup> <p>
+
+
+  안녕하세요. <!-- 와우 -->
+
+
+</table>
+
+  <p>
+    <font color=gold size=7 onclick=imsi(this)> <u> 이의호 </u> <br>   오늘 퇴근 길에 비 옵니다. <br> </font>
+  <p>
+ </body>
+</html>
+
+

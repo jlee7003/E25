@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+ #aa{
+ width:300px;
+ height:40px;
+ border:1px solid black;
+
+ }
+ td{
+   border:none;
+
+ }
+ #bb{
+   width:300px;
+   height:40px;
+   border:1px solid black;
+
+
+ }
+ #left{
+   width:220px;
+   height:40px;
+   float:left; /*왼쪽으로 붙어라*/
+   display:flex;
+   align-items: center;  /* 상하정렬 */
+   padding-left: 10px; /* 외곽선과 글자간의 간격 띄우기 */
+ }
+ #right{
+   width:60px;
+   height:40px;
+   float:right; /* 오른쪽으로 */
+   display:flex;
+   align-items: center;
+   justify-content: flex-end; /* 좌우정렬-> 오른쪽으로 */
+   padding-right: 10px; /* 우측 외곽선과 아이콘과의 간격 */
+ }
+  </style>
+ </head>
+ <body>
+
+
+
+  <table border=1 width=300 height=40>
+    <tr>
+      <td>선택하세요</td>
+      <align=right>★</td>
+    </tr>
+  </table>
+   <div id=aa> 선택하세요 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★</div> <p>
+    <div id=bb> 선택하세요 ★</div> <!-- 외각선-->
+ <div id=bb>
+    <div id=left> 선택하세요</div>
+    <div id=right> ★</div
+  </div>
+ </body>
+</html>

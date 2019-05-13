@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  body{
+  background-image:url("aa.jpg");
+  background-repeat:no-repeat;
+  background-position:bottom center; /*top bottom left right 값을 썩어서 사용 가능 */
+  background-size: 300px 300px;
+  }
+  </style>
+ </head>
+ <body>
+ 
+ </body>
+</html>

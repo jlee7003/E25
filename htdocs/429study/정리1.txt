@@ -1,0 +1,74 @@
+html태그는 왜 태어났을까?
+- 단순하게 보면 하나의 문서의 형태 
+- 워드프로그램의 종류에 관계없이 브라우저만 있으면 볼수 있다.
+
+기존의 html에 한계가 있다..
+
+지원할수 있는 CSS 가 추가
+
+html, css는 단독으로 사용하는게 아니라 같이 사용하는거
+
+html태그에 css기능을 추가!!
+
+html태그의 종류는 많지만, 기본적인 태그만 알고있으면 됨
+
+폰트관련 : 크기, 색, 꾸미기, 글씨체 
+
+문단관련 : 줄바꿈, 자간, 
+
+이미지관련(멀티미디어)
+
+입력양식 : 사용자와 서버간의 대화를 할 수 있는
+
+스타일시트 
+
+- html에서 지원되지 않는 기능을 추가로 지원
+
+- 단 css단독으로 사용은 불가 => html태그의 이름을 불러서지원
+
+ 1. 태그의 이름으로 지원 => 현재문서의 모든태그에 적용
+ 2. id,class를 사용해서 특정요소에만 기능지원
+
+<font color=색 size=1~7 face=글씨체> 하하하 </font>
+<i> <u> <s> <b> 
+<p> <br>
+<table><tr><td>
+<form> 
+ type=text,password,radio,checkbox
+ type=button,submit,reset,image
+ <textarea> <select><option>
+
+kurly.com
+
+
+
+
+
+
+
+
+
+
+
+
+div ,span 태그
+
+html태그는 태그마다 기능
+
+div,span은 아무기능도 없다..
+
+=> 스타일을 이용해서 새로운 기능(모양)을 만든다..
+block, inline 두형태의 태그가 있어서 div,span두개로 만들었다.
+
+
+font-size:  px
+font-weight: 100~900;
+font-family: 글씨체
+font-style: italic
+color:글씨색 (#123456)
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  #aa{
+
+    visibility:hidden; <!-- visibility는 숨겨도 공간을 차지함으로 공간을 차지함-->
+  }
+  #bb{
+    display:none; <!-- display는 사용하면 숨겨도 공간을 차지하지 않음-->
+  }
+  </style>
+  <script>
+  function imsi(pp)
+  {
+    pp.style.visibility="hidden";
+    document.all.aa.style.display="inline"
+  }
+  function ims12(pp)
+  {
+    pp.style.visibility="visible";
+  }
+  </script>
+ </head>
+ <body>
+  <div > 배트맨</div>
+    <div > 슈퍼맨</div>
+  <div id=aa> 원더우먼</div> <!-- visibility는 숨겨도 공간을 차지함으로 공간을 차지함-->
+    <div > 아이언맨</div>
+      <div > 닥터스트레인지</div>
+      <div id=bb> 토르 </div>
+      <div> 홍길동</div>
+ </body>
+</html>

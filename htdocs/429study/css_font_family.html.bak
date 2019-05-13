@@ -1,0 +1,31 @@
+<html>
+ <meta charset="utf-8">
+ <style>  
+   #aa {
+    font-family:궁서;
+	 }
+	 #bb {
+    font-family:나눔고딕;
+	 }
+	 #cc {
+    font-family:"Times New Roman";
+	 }
+	 #dd {
+    font-family:Arial;
+	 }
+
+ </style>
+ <body>
+   <h1> 글씨체 font-family </h1>
+   <h2 style="color:red"> 글씨체는 브라우저가 표현할수 있어야 된다 </h2>
+   <h2 style="color:red"> font-family:폰트체1, 폰트체2, 폰트체 3; 이렇게 정의하면 1부터 브라우저가 가지고 있는 폰트로 보여준다 </h2>
+   <div id=aa>font-family:궁서; 안녕하세요 </div>
+	 <div id=bb>font-family:나눔고딕; 안녕하세요 </div>
+	 <div id=cc>font-family:"Times New Roman";  Nice To Me Too!! </div>
+	 <div id=dd>font-family:Arial;  Nice To Me Too!! </div>
+ </body>
+</html>
+
+ 
+
+ 

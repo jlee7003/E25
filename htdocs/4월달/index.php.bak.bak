@@ -1,0 +1,28 @@
+﻿ <font size=1 color=orange> 이의호의 홈페이지</font>  <font size=1> linklist  </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="test.html">  test </pre> </a> /
+<a href="ultest.html"> ultest </a> /
+<a href="index.php"> index </a> /
+<a href="link.html"> link </a> /
+<a href="table.html"> table </a> /
+<a href="Tutorial.html"> Tutorial </a>
+<hr>
+
+ <img src=../naver1.png width="400" height="100" alt="네이버로고" align=top> 
+ 
+ <table width= "400" height= "20" border="1" bordercolor="gold">
+<tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+<tr>
+</table>
+
+<table width= "400" height= "20" border="1" bordercolor="gold">
+<tr>
+  <td><a href="test.html">  test </pre> </a> <p></td> 
+ <td><a href="ultest.html"> ultest </a> <p></td> 
+<td><a href="index.php"> index </a> <p></td>
+<td><a href="link.html"> link </a> <p></td>
+<td><a href="table.html"> table </a></td>
+<td><a href="Tutorial.html"> Tutorial</a></td>
+<tr></center>
+</table>

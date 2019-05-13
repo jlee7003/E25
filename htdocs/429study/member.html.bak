@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    input[type=text] {
+       width:300px;
+	   height:40px;
+	}
+	input[type=button] {
+       width:200px;
+	   height:47px;
+	   background:darkblue;
+	   color:white;
+	}
+  </style>
+ </head>
+ <body>
+   <table align=center width=600 height=400>
+     <caption> <h1>회원가입</h1> </caption>
+     <tr>
+       <td colspan=3 align=right> *필수입력사항 </td>
+	 </tr>
+	 <tr>
+       <td> 아이디* </td>
+	   <td> <input type=text size=20> </td>
+	   <td> <input type=button value=중복확인> </td>
+	 </tr>
+	 <tr>
+       <td> 비밀번호* </td>
+	   <td colspan=2> <input type=text size=20> </td>
+	 </tr>
+	 <tr>
+       <td> 비밀번호확인* </td>
+	   <td colspan=2> <input type=text size=20> </td>
+	 </tr>
+	 <tr>
+       <td> 이름* </td>
+	   <td colspan=2> <input type=text size=20> </td>
+	 </tr>
+	 <tr>
+       <td> 이메일* </td>
+	   <td> <input type=text size=20> </td>
+	   <td> <input type=button value=이메일중복확인 disabled> </td>
+	 </tr>
+	 <tr>
+       <td> 휴대폰 </td>
+	   <td> <input type=text size=20> </td>
+	   <td> <input type=button value=인증번호받기> </td>
+	 </tr>
+   </table>
+ </body>
+</html>

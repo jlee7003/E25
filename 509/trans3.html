@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+    #pkc {
+      width:100px;
+	  height:100px;
+	  background:yellow;
+     }
+  </style>
+  <script>
+    var r=0;
+	var s=100;
+	var sss;
+    function rot()
+	{
+	   r=r+1;
+       if(r<=360)
+	   {
+		document.all.pkc.style.transform="rotate("+r+"deg)";
+        sss=setTimeout(rot,10);
+	   }
+	   else
+	    clearTimeout(sss);
+	}
+	function sca()
+	{
+       s=s+1;
+	   if(s<=360)
+	   {
+         document.all.pkc.style.width=s+"px";
+		 document.all.pkc.style.height=s+"px";
+		 sss=setTimeout(sca,10);
+	   }
+	}
+	function two()
+	{
+       r=r+1;
+	   s=s+1;
+       if(r<=360)
+	   {
+         document.all.pkc.style.transform="rotate("+r+"deg)";
+		 document.all.pkc.style.width=s+"px";
+		 document.all.pkc.style.height=s+"px";
+		 sss=setTimeout(two,10);
+	   }
+	   else
+	     clearTimeout(sss);
+
+	}
+	function aaa(chk)
+	{
+      if(chk==0)
+	    sss=setTimeout(rot,10);
+	  else if(chk==1)
+    	     sss=setTimeout(sca,10);
+		   else
+		     sss=setTimeout(two,10);
+
+	}
+  </script>
+ </head>
+ <body>
+   <input type=button onclick=aaa(0) value=rotate>
+   <input type=button onclick=aaa(1) value=scale>
+   <input type=button onclick=aaa(2) value=둘다>
+   <div id=pkc>안녕하세요</div>
+ </body>
+</html>

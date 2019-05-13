@@ -1,0 +1,301 @@
+[Mon Apr 22 09:47:08 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Mon Apr 22 09:47:08 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Mon Apr 22 09:47:08 2019] [notice] Parent: Created child process 3708
+[Mon Apr 22 09:47:10 2019] [notice] Child 3708: Child process is running
+[Mon Apr 22 09:47:10 2019] [notice] Child 3708: Acquired the start mutex.
+[Mon Apr 22 09:47:10 2019] [notice] Child 3708: Starting 150 worker threads.
+[Mon Apr 22 09:47:10 2019] [notice] Child 3708: Starting thread to listen on port 80.
+[Mon Apr 22 09:51:51 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 22 09:51:53 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Mon Apr 22 09:51:53 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Mon Apr 22 09:51:53 2019] [notice] Parent: Created child process 364
+[Mon Apr 22 09:51:55 2019] [notice] Child 364: Child process is running
+[Mon Apr 22 09:51:55 2019] [notice] Child 364: Acquired the start mutex.
+[Mon Apr 22 09:51:55 2019] [notice] Child 364: Starting 150 worker threads.
+[Mon Apr 22 09:51:55 2019] [notice] Child 364: Starting thread to listen on port 80.
+[Mon Apr 22 10:31:22 2019] [error] [client 192.168.0.11] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:31:49 2019] [error] [client 192.168.0.11] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:31:55 2019] [error] [client 192.168.0.16] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:32:00 2019] [error] [client 192.168.0.153] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:32:06 2019] [error] [client 192.168.0.34] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:37:22 2019] [error] [client 192.168.0.82] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 10:38:01 2019] [error] [client 192.168.0.82] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 11:26:38 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Mon Apr 22 11:26:39 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/favicon.ico
+[Tue Apr 23 08:39:41 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 23 08:39:43 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Tue Apr 23 08:39:43 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Tue Apr 23 08:39:43 2019] [notice] Parent: Created child process 2608
+[Tue Apr 23 08:39:45 2019] [notice] Child 2608: Child process is running
+[Tue Apr 23 08:39:45 2019] [notice] Child 2608: Acquired the start mutex.
+[Tue Apr 23 08:39:45 2019] [notice] Child 2608: Starting 150 worker threads.
+[Tue Apr 23 08:39:45 2019] [notice] Child 2608: Starting thread to listen on port 80.
+[Tue Apr 23 09:35:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/\xec\x83\x88\xed\x8c\x8c\xec\x9d\xbc\xeb\xa7\x8c\xeb\x93\xa4\xea\xb8\xb0
+[Tue Apr 23 09:51:39 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/first.html' not found or unable to stat
+[Tue Apr 23 09:51:40 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/first.html' not found or unable to stat
+[Tue Apr 23 09:51:40 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/first.html' not found or unable to stat
+[Tue Apr 23 11:14:38 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/\xec\xa0\x9c\xeb\xaa\xa9\xec\x97\x86\xec\x9d\x8c4.html' not found or unable to stat
+[Tue Apr 23 11:15:05 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/\xe3\x85\xa3\xe3\x85\x91\xe3\x85\x9c\xe3\x85\x8f.html' not found or unable to stat
+[Tue Apr 23 11:15:14 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/lionk.html' not found or unable to stat
+[Wed Apr 24 08:45:38 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 24 08:45:40 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Wed Apr 24 08:45:40 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Wed Apr 24 08:45:40 2019] [notice] Parent: Created child process 2972
+[Wed Apr 24 08:45:42 2019] [notice] Child 2972: Child process is running
+[Wed Apr 24 08:45:42 2019] [notice] Child 2972: Acquired the start mutex.
+[Wed Apr 24 08:45:42 2019] [notice] Child 2972: Starting 150 worker threads.
+[Wed Apr 24 08:45:42 2019] [notice] Child 2972: Starting thread to listen on port 80.
+[Wed Apr 24 10:46:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:46:50 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:41 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:53 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:54 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:54 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:55 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:48:55 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:12 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:12 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:12 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:36 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:36 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:49:36 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:50:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:50:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:50:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:50:33 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:53:52 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 10:54:23 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:01:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver1.jpg, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:07:07 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver2.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:09:38 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver56.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:11:47 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver56.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:13:16 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver56.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:23:56 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:23:58 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:23:58 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:25:59 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:25:59 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:25:59 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:00 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:02 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:03 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:44 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:45 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:45 2019] [error] [client 127.0.0.1] Directory index forbidden by Options directive: C:/APM_Setup/htdocs/image/, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:26:46 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:26:46 2019] [error] [client 127.0.0.1] Directory index forbidden by Options directive: C:/APM_Setup/htdocs/image/, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:26:47 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:09 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:10 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:10 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:10 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:10 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:11 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:11 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:11 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:11 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:24 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:25 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:25 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:25 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:25 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:25 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:26 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:26 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:26 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:26 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:27 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:27 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:27 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:27:35 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:30:58 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:30:59 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:32:29 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup..naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:32:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup..naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:32:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup..naver.jpg, referer: http://localhost/image.html
+[Wed Apr 24 11:33:02 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Wed Apr 24 11:33:02 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Wed Apr 24 11:33:03 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Wed Apr 24 11:33:03 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Wed Apr 24 11:33:03 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Wed Apr 24 11:33:04 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Wed Apr 24 11:33:05 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/APM_Setup, referer: http://localhost/image.html
+[Thu Apr 25 08:52:42 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 08:52:44 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu Apr 25 08:52:44 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu Apr 25 08:52:44 2019] [notice] Parent: Created child process 2892
+[Thu Apr 25 08:52:46 2019] [notice] Child 2892: Child process is running
+[Thu Apr 25 08:52:46 2019] [notice] Child 2892: Acquired the start mutex.
+[Thu Apr 25 08:52:46 2019] [notice] Child 2892: Starting 150 worker threads.
+[Thu Apr 25 08:52:46 2019] [notice] Child 2892: Starting thread to listen on port 80.
+[Thu Apr 25 10:16:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Thu Apr 25 10:16:49 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Thu Apr 25 13:11:44 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:13:34 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:13:36 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:15:03 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:16:20 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:20:44 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:21:17 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:21:36 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:23:06 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/aa.php' not found or unable to stat, referer: http://localhost/hi.html
+[Thu Apr 25 13:24:31 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/h12.html' not found or unable to stat
+[Thu Apr 25 13:24:38 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/h12.html' not found or unable to stat
+[Thu Apr 25 13:56:11 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Thu Apr 25 13:56:12 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Thu Apr 25 16:26:13 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 16:26:15 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu Apr 25 16:26:15 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu Apr 25 16:26:15 2019] [notice] Parent: Created child process 2424
+[Thu Apr 25 16:26:17 2019] [notice] Child 2424: Child process is running
+[Thu Apr 25 16:26:17 2019] [notice] Child 2424: Acquired the start mutex.
+[Thu Apr 25 16:26:17 2019] [notice] Child 2424: Starting 150 worker threads.
+[Thu Apr 25 16:26:17 2019] [notice] Child 2424: Starting thread to listen on port 80.
+[Fri Apr 26 08:36:45 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 26 08:36:47 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Fri Apr 26 08:36:47 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Fri Apr 26 08:36:47 2019] [notice] Parent: Created child process 2408
+[Fri Apr 26 08:36:49 2019] [notice] Child 2408: Child process is running
+[Fri Apr 26 08:36:49 2019] [notice] Child 2408: Acquired the start mutex.
+[Fri Apr 26 08:36:49 2019] [notice] Child 2408: Starting 150 worker threads.
+[Fri Apr 26 08:36:49 2019] [notice] Child 2408: Starting thread to listen on port 80.
+[Fri Apr 26 09:05:59 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Fri Apr 26 09:06:00 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Fri Apr 26 09:06:10 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Fri Apr 26 09:06:30 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Fri Apr 26 09:09:55 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/\xc2\xa0, referer: http://localhost/index.php
+[Fri Apr 26 09:09:56 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/\xc2\xa0, referer: http://localhost/index.php
+[Fri Apr 26 09:24:13 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/image/naver.png, referer: http://localhost/Tutorial.html
+[Fri Apr 26 11:22:31 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/0426
+[Mon Apr 29 08:43:25 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 29 08:43:27 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Mon Apr 29 08:43:27 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Mon Apr 29 08:43:27 2019] [notice] Parent: Created child process 2460
+[Mon Apr 29 08:43:29 2019] [notice] Child 2460: Child process is running
+[Mon Apr 29 08:43:29 2019] [notice] Child 2460: Acquired the start mutex.
+[Mon Apr 29 08:43:29 2019] [notice] Child 2460: Starting 150 worker threads.
+[Mon Apr 29 08:43:29 2019] [notice] Child 2460: Starting thread to listen on port 80.
+[Tue Apr 30 08:56:14 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 30 08:56:16 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Tue Apr 30 08:56:16 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Tue Apr 30 08:56:16 2019] [notice] Parent: Created child process 2480
+[Tue Apr 30 08:56:18 2019] [notice] Child 2480: Child process is running
+[Tue Apr 30 08:56:18 2019] [notice] Child 2480: Acquired the start mutex.
+[Tue Apr 30 08:56:18 2019] [notice] Child 2480: Starting 150 worker threads.
+[Tue Apr 30 08:56:18 2019] [notice] Child 2480: Starting thread to listen on port 80.
+[Tue Apr 30 09:29:18 2019] [error] [client 192.168.0.118] File does not exist: C:/APM_Setup/htdocs/nice ports,
+[Tue Apr 30 09:31:25 2019] [error] [client 192.168.0.118] File does not exist: C:/APM_Setup/htdocs/nice ports,
+[Wed May 01 08:49:38 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 01 08:49:40 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Wed May 01 08:49:40 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Wed May 01 08:49:40 2019] [notice] Parent: Created child process 2456
+[Wed May 01 08:49:42 2019] [notice] Child 2456: Child process is running
+[Wed May 01 08:49:42 2019] [notice] Child 2456: Acquired the start mutex.
+[Wed May 01 08:49:42 2019] [notice] Child 2456: Starting 150 worker threads.
+[Wed May 01 08:49:42 2019] [notice] Child 2456: Starting thread to listen on port 80.
+[Wed May 01 09:04:04 2019] [error] [client 127.0.0.1] Directory index forbidden by Options directive: C:/APM_Setup/htdocs/
+[Wed May 01 09:04:05 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/favicon.ico, referer: http://localhost/
+[Wed May 01 09:04:14 2019] [error] [client 127.0.0.1] Directory index forbidden by Options directive: C:/APM_Setup/htdocs/
+[Wed May 01 09:04:35 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:04:38 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:04:39 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:04:39 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:04:54 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:04:58 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/4290.html' not found or unable to stat
+[Wed May 01 09:05:02 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Wed May 01 09:06:57 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/naver.jpg, referer: http://localhost/4290.html
+[Wed May 01 09:07:56 2019] [error] [client 127.0.0.1] script 'C:/APM_Setup/htdocs/501/4291.html' not found or unable to stat
+[Thu May 02 08:45:30 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 02 08:45:32 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu May 02 08:45:32 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu May 02 08:45:32 2019] [notice] Parent: Created child process 2432
+[Thu May 02 08:45:34 2019] [notice] Child 2432: Child process is running
+[Thu May 02 08:45:34 2019] [notice] Child 2432: Acquired the start mutex.
+[Thu May 02 08:45:34 2019] [notice] Child 2432: Starting 150 worker threads.
+[Thu May 02 08:45:34 2019] [notice] Child 2432: Starting thread to listen on port 80.
+[Fri May 03 08:35:35 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 08:35:37 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Fri May 03 08:35:37 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Fri May 03 08:35:37 2019] [notice] Parent: Created child process 2460
+[Fri May 03 08:35:39 2019] [notice] Child 2460: Child process is running
+[Fri May 03 08:35:39 2019] [notice] Child 2460: Acquired the start mutex.
+[Fri May 03 08:35:39 2019] [notice] Child 2460: Starting 150 worker threads.
+[Fri May 03 08:35:39 2019] [notice] Child 2460: Starting thread to listen on port 80.
+[Fri May 03 17:53:52 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 17:53:54 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Fri May 03 17:53:54 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Fri May 03 17:53:54 2019] [notice] Parent: Created child process 2432
+[Fri May 03 17:53:56 2019] [notice] Child 2432: Child process is running
+[Fri May 03 17:53:56 2019] [notice] Child 2432: Acquired the start mutex.
+[Fri May 03 17:53:56 2019] [notice] Child 2432: Starting 150 worker threads.
+[Fri May 03 17:53:56 2019] [notice] Child 2432: Starting thread to listen on port 80.
+[Tue May 07 08:48:32 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 07 08:48:34 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Tue May 07 08:48:34 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Tue May 07 08:48:34 2019] [notice] Parent: Created child process 2460
+[Tue May 07 08:48:36 2019] [notice] Child 2460: Child process is running
+[Tue May 07 08:48:36 2019] [notice] Child 2460: Acquired the start mutex.
+[Tue May 07 08:48:36 2019] [notice] Child 2460: Starting 150 worker threads.
+[Tue May 07 08:48:36 2019] [notice] Child 2460: Starting thread to listen on port 80.
+[Wed May 08 08:45:12 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 08 08:45:14 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Wed May 08 08:45:14 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Wed May 08 08:45:14 2019] [notice] Parent: Created child process 2392
+[Wed May 08 08:45:16 2019] [notice] Child 2392: Child process is running
+[Wed May 08 08:45:16 2019] [notice] Child 2392: Acquired the start mutex.
+[Wed May 08 08:45:16 2019] [notice] Child 2392: Starting 150 worker threads.
+[Wed May 08 08:45:16 2019] [notice] Child 2392: Starting thread to listen on port 80.
+[Wed May 08 11:12:43 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 08 11:12:45 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Wed May 08 11:12:45 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Wed May 08 11:12:45 2019] [notice] Parent: Created child process 2428
+[Wed May 08 11:12:47 2019] [notice] Child 2428: Child process is running
+[Wed May 08 11:12:47 2019] [notice] Child 2428: Acquired the start mutex.
+[Wed May 08 11:12:47 2019] [notice] Child 2428: Starting 150 worker threads.
+[Wed May 08 11:12:47 2019] [notice] Child 2428: Starting thread to listen on port 80.
+[Wed May 08 13:48:04 2019] [error] [client 192.168.0.8] File does not exist: C:/APM_Setup/htdocs/nice ports,
+[Wed May 08 14:07:50 2019] [error] [client 192.168.0.8] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://192.168.0.82/
+[Thu May 09 08:51:27 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 09 08:51:29 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu May 09 08:51:29 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu May 09 08:51:29 2019] [notice] Parent: Created child process 2452
+[Thu May 09 08:51:31 2019] [notice] Child 2452: Child process is running
+[Thu May 09 08:51:31 2019] [notice] Child 2452: Acquired the start mutex.
+[Thu May 09 08:51:31 2019] [notice] Child 2452: Starting 150 worker threads.
+[Thu May 09 08:51:31 2019] [notice] Child 2452: Starting thread to listen on port 80.
+[Fri May 10 08:51:11 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 10 08:51:13 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Fri May 10 08:51:13 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Fri May 10 08:51:13 2019] [notice] Parent: Created child process 2456
+[Fri May 10 08:51:15 2019] [notice] Child 2456: Child process is running
+[Fri May 10 08:51:15 2019] [notice] Child 2456: Acquired the start mutex.
+[Fri May 10 08:51:15 2019] [notice] Child 2456: Starting 150 worker threads.
+[Fri May 10 08:51:15 2019] [notice] Child 2456: Starting thread to listen on port 80.
+[Mon May 13 08:41:50 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 13 08:41:52 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Mon May 13 08:41:52 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Mon May 13 08:41:52 2019] [notice] Parent: Created child process 2468
+[Mon May 13 08:41:54 2019] [notice] Child 2468: Child process is running
+[Mon May 13 08:41:54 2019] [notice] Child 2468: Acquired the start mutex.
+[Mon May 13 08:41:54 2019] [notice] Child 2468: Starting 150 worker threads.
+[Mon May 13 08:41:54 2019] [notice] Child 2468: Starting thread to listen on port 80.
+[Mon May 13 10:22:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:22:48 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/favicon.ico, referer: http://localhost/
+[Mon May 13 10:23:29 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:23:32 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:23:36 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:24:32 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:24:32 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:24:33 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Mon May 13 10:24:34 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <style>
+     li {
+       list-style-type:none;
+	 }
+	 #aa {
+       display:none;
+	 }
+	 #bb {
+       position:absolute;
+	   left:300px;
+	   top:100px;
+	   background:yellow;
+	 }
+   </style>
+   <script>
+     function imsi()
+	 {
+        document.all.aa.style.display="inline";
+	 }
+	 function imsi2()
+	 {
+        document.all.aa.style.display="none";
+	 }
+	 function aaa()
+	 {
+        document.all.bb.style.visibility="hidden";
+	 }
+   </script>
+  <title>Document</title>
+ </head> <!-- 0508/visibidivty3.html -->
+ <body>
+     <ul>
+       <li onmouseover=imsi() onmouseout=imsi2()>한국음식</li>
+	   <li>
+         <ul id=aa>
+           <li> 갈비탕 </li>
+		   <li> 비빔밥 </li>
+		   <li> 육개장 </li>
+		   <li> 한정식 </li>
+		 </ul>
+	   </li>
+	 </ul>
+	 <div id=bb>
+       여기는 광고입니다. <p>
+	   <button onclick=aaa()>닫기</button>
+	 </div>
+ </body>
+</html>

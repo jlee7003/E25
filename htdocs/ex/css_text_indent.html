@@ -1,0 +1,31 @@
+<html>
+ <meta charset="utf-8">
+ <style>
+    #aa {
+     width: 300px;
+     height: 50px;
+     border: 1px solid black;
+     text-align: center;/*좌우정렬 테이블에서만 잘실행*/
+     vertical-align: bottom; /* top bottom, middle 테이블에서만 잘실행*/
+    }
+    #bb{
+      width:200px;
+      height:50px;
+      border:1px solid black;
+      display: flex;      /* <div> 태그를 사용할경우 정렬하고 싶을떄 사용*/
+      justify-content: flex-end; /**/
+      align-items: center;   /**/
+    }
+
+ </style>
+ <body>
+  <div  id=bb> 클릭하기</div> <p>
+  <span id=aa> 클릭하기 </span> <p>
+  <b id=aa>  클릭하기</b> <p>
+   <table border=1 width=200 height=50>
+      <tr>
+          <td id=aa> 클릭하기 </td> <p>
+      </tr>
+    </table> <p>
+ </body>
+</html>

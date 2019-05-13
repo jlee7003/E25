@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  div{
+
+    width:100px;
+    height:100px;
+    background:pink;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+  }
+  </style>
+  <script>
+  var chk=0;
+  var sss;
+  function imsi()
+  {
+    sss=setTimeout(move,10);
+  }
+  function move()
+  {
+    chk=chk+1;
+    if(chk<=300)
+    {
+    document.all.pkc.style.left=chk+"px";
+    document.all.pkc.style.top=chk+"px";
+    sss=setTimeout(move,10);
+    }
+     else
+     {
+       clearTimeout(sss);
+     }
+  }
+
+  </script>
+ </head>
+ <body>
+
+     <div id=pkc>안녕하세요.</div>
+     <br><br><br><br><br><br><br><br><br><br>
+   <input type=button onclick=imsi() value=클릭>
+
+ </body>
+</html>

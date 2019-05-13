@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+   div { /* 글자의 크기를 30px , 현재문서의 모든 div 태그 */
+   font-size:30px;
+   }
+
+   #aa2
+   {
+   color:blue;
+   }
+     #aa3
+   {
+   color:rgb(222,60,250); /* red,green,blue 를 0~2550의 수로 표현 */
+   }
+     #aa4
+   {
+   color:ab12dd; /* red,green,blue를 16진수로 표현 */
+   }
+     #aa5
+   {
+   color:rgba(222,60,250,0.5);
+   }
+     #aa6
+   {
+   color:hsl(360,100%,50%);
+   }
+    #aa7
+	{
+    color:hsla(360,100%,50%,0.7);
+	}
+
+  </style>
+ </head>
+ <body>
+  
+ div, span 태그
+ html 태그는 태그마다 기능
+ div,span은 아무 기능도 없다..
+
+ => 스타일을 이용해서 새로운 기능을 만든다..
+ block, inline 두형태의 태그가 있어서 div,span 두개로 만들었다.
+
+  <div id=aa2> 안녕하세요 </div>
+  <div id=aa3> 안녕하세요 </div>
+  <div id=aa4> 안녕하세요 </div>
+  <div id=aa5> 안녕하세요 </div>
+  <div id=aa6> 안녕하세요 </div>
+  <div id=aa7> 안녕하세요 </div>
+
+ </body>
+</html>

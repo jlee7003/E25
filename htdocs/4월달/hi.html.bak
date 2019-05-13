@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>hi</title>
+ </head>
+ <body>
+ <form method=post action=aa.php>
+  이름 <input type=text name=name> <p>
+  나이 <input type=text name=age> <p>
+  <input type=submit value=전송>
+  <!--form태그의 name은 현재문서내에서 자바스크립트 호출용도-->
+  <!-- jsp,php 문서에서 읽어오는 이름-->
+  </form>
+ </body>
+</html>

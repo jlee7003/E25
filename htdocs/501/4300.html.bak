@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  #aa
+  {
+   background-image:url("aa.jpg"); /* 이미지 파일 설정*/
+   background-size:50px;
+   background-repeat:no-repeat;
+  }
+  #bb
+  {
+  background-image:url("naver.jpg");
+  background-size:100%;
+
+  }
+  div{ /*그림의 크기 지정*/
+   width:500px;
+   height:400px;
+  }
+  </style>
+ </head>
+ <body>
+  <div id=aa align=center> 트와이스</div>
+  <div id=bb align=center> 네이버</div>
+ </body>
+</html>

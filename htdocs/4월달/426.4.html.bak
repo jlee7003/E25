@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+   <style>
+     #aa {
+       text-align:center;
+	 }
+   </style>
+ </head>
+ <body> 
+   <div id=aa> 하하하 </div> <i id=aa align=center;> 호호호 </i>  <h1 id=aa> 헤헤 </h1>
+ </body>
+</html> 
