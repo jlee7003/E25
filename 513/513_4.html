@@ -8,13 +8,220 @@
   <meta name="Description" content="">
   <title>Document</title>
   <style>
+   #ment {
+     width:1800px;
+     height:40px;
+     background:#542075;
+     margin:auto;
+     color:#eeeeee;
+     display:flex; /*자식 div 두개를 한줄에 정렬하기 위해 사용*/
+   }
+   #ment #left
+   {
+     width:1600px;
+     height:40px;
+     display: flex; /*내부 글자 정렬*/
+     align-items: center; /* 상하정렬*/
+     justify-content:center; /*좌우 정렬*/
+
+   }
+   #ment #right
+   {
+     width:200px;
+     height:40px;
+     display: flex; /*내부 글자 정렬*/
+     align-items: center; /* 상하정렬*/
+     justify-content:center; /*좌우 정렬*/
+   }
+   #login{
+     width:1800px;
+     height:40px;
+     margin:auto;
+        background:pink;
+        display:flex; /*한줄로 만들기*/
+        font-size: 14px;
+   }
+   #login #left
+   {
+     width:900px;
+     height:40px;
+     display: flex; /*내부 글자 정렬*/
+     align-items: center; /* 상하정렬*/
+     justify-content:center; /*좌우 정렬*/
+   }
+   #login #left > span
+   {
+
+     border-radius: 40px;
+     border:1px solid #eeeeee;
+   }
+   #login #left span span
+   {
+    font-weight: 900;
+     color: purple;
+   }
+   #login #right
+   {
+     width:900px;
+     height:40px;
+     display: flex; /*내부 글자 정렬*/
+     align-items: center; /* 상하정렬*/
+     justify-content:center; /*좌우 정렬*/
+
+   }
+   #logo
+   {
+     width:1800px;
+     height:100px;
+     margin:auto;
+     text-align: center;
+     background:white;
+   }
+
+   #menu{
+     width:1800px;
+     height:40px;
+     margin:auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background:skyblue;
+   }
+   #menu #list li{
+     list-style-type: none; /*동그라미 없애기*/
+     float:left;
+    width:100px;
+    height:40px;
+    border:0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #menu #list li:first-child
+   {
+     width:140px;
+     height:40px;
+   }
+   #img{
+     width:1800px;
+     height:350px;
+     margin:auto;
+   }
+   #sang
+   {
+     width:800px;
+     height:40px;
+     border:0px solid black;
+          margin:auto;
+   }
+   #sang td{
+     font-size:14px;
+     font-weight:900;
+     line-height: 20px;
+     border:0px solid black;
+   }
+   #sang s{
+     color:#bbbbbb;
+   }
+   #footer{
+     width:800px;
+     height:40px;
+     margin:auto;
 
 
-  </style>
-
+   }
   </style>
  </head>
  <body>
- <div> </div>
+ <div id=ment>
+  <div id=left>지금 가입하고 인기 상품 100원에 받아가세요! ></div>
+  <div id=right> X</div>
+  </div>
+
+
+
+ <div id=login>
+<div id=left> <span> 서울·경기·인청 <span>샛별배송 ></span> </span> </div>
+<div id=right> 회원 가입 | 로그인 | 고객센터 ▼ | 배송지역 검색 &nbsp;</div>
+ </div>
+
+
+
+
+ <div id=logo>
+<img src=logo.PNG>
+ </div>
+
+
+
+
+
+ <div id=menu>
+<ul id=list> <!--목록 태그, ul은 순서 없는 리스트-->
+  <li>전체카테고리</li>
+  <li>신상품</li>
+  <li>베스트</li>
+  <li>알뜰쇼핑</li>
+  <li>이벤트</li>
+  <li>검색창</li>
+  <li>장바구니</li>
+</ul>
+  </div>
+
+
+
+
+ <div id=img>
+<img src=img.PNG height=350 width=1800>
+ </div>
+
+
+
+
+
+ <div id=sang>
+ <table width=800 height=350 border=0>
+   <caption> <h2>이 상품 어때요?<h2> </caption>
+   <tr>
+     <td><img src=s1.PNG width=190></td>
+     <td><img src=s2.PNG width=190></td>
+     <td><img src=s3.PNG width=190></td>
+     <td><img src=s4.PNG width=190></td>
+   </tr>
+   <tr>
+     <td> [오늘특가][씨클레버]주꾸미 갑오징어 볶음<br>
+     8,260원 <br>
+   <s>11,800원</s>
+ </td>
+     <td>[땡큐딜][선물세트] 알트하우스 델피팝 <br>
+       19,500원 <br>
+       <s>39,000원</s>
+     </td>
+     <td>GAP 토마토 2kg <br>
+     7,600원 <br>
+     <s>9,500원</s>
+   </td>
+     <td>[라메르풀라르]프랑스 전통쿠키(틴케이스)4종 <br>
+       14,350원 <br>
+       <s>16,500원</s>
+     </td>
+   </tr>
+ </table>
+ </div>
+
+
+
+
+
+ <div id=footer>
+
+ </div>
+
+
+
+
+
+
+
  </body>
 </html>
