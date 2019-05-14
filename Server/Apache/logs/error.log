@@ -299,3 +299,11 @@
 [Mon May 13 10:24:32 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
 [Mon May 13 10:24:33 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
 [Mon May 13 10:24:34 2019] [error] [client 127.0.0.1] File does not exist: C:/APM_Setup/htdocs/twise.png, referer: http://localhost/
+[Tue May 14 08:46:15 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 14 08:46:17 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Tue May 14 08:46:17 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Tue May 14 08:46:17 2019] [notice] Parent: Created child process 2488
+[Tue May 14 08:46:19 2019] [notice] Child 2488: Child process is running
+[Tue May 14 08:46:19 2019] [notice] Child 2488: Acquired the start mutex.
+[Tue May 14 08:46:19 2019] [notice] Child 2488: Starting 150 worker threads.
+[Tue May 14 08:46:19 2019] [notice] Child 2488: Starting thread to listen on port 80.

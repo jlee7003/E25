@@ -9,7 +9,7 @@
   <title>Document</title>
   <style>
 #ment{
-  background-color:purple;
+  background-color:#5F369C;
   color:white;
   width:800px;
   border:1px;
@@ -27,10 +27,21 @@
   text-align:center;
   padding-top: 10px;
 
+
+}
+.display{
+}
+.gray{
+color:#C2C2C2;
+display: inline-block;
+  }
+.white{
+  color:white;
+  display: inline-block;
 }
 #ment #right{
   /*자식 하나만*/
-  width:100px;
+  width:50px;
   height:40px;
   float:right;
   display:flex;
@@ -111,7 +122,7 @@ border-radius: 40px;
  <body>
  <div id=ment>
    <div id=left>
-    지금 가입하고 인기 상품 100원에 받아가세요! &gt;
+    <div class=display> <div class=gray> 지금 가입하고 인기 상품&nbsp; </div><div class=white>100원</div> <div class=gray>에 받아가세요! &gt; </div></div>
   </div>
   <div id=right style="float:left">X</div>
  </div>
