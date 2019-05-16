@@ -315,3 +315,19 @@
 [Wed May 15 08:41:31 2019] [notice] Child 2464: Acquired the start mutex.
 [Wed May 15 08:41:31 2019] [notice] Child 2464: Starting 150 worker threads.
 [Wed May 15 08:41:31 2019] [notice] Child 2464: Starting thread to listen on port 80.
+[Thu May 16 08:50:46 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 16 08:50:48 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu May 16 08:50:48 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu May 16 08:50:48 2019] [notice] Parent: Created child process 2300
+[Thu May 16 08:50:50 2019] [notice] Child 2300: Child process is running
+[Thu May 16 08:50:50 2019] [notice] Child 2300: Acquired the start mutex.
+[Thu May 16 08:50:50 2019] [notice] Child 2300: Starting 150 worker threads.
+[Thu May 16 08:50:50 2019] [notice] Child 2300: Starting thread to listen on port 80.
+[Thu May 16 08:51:29 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 16 08:51:30 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Thu May 16 08:51:30 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Thu May 16 08:51:30 2019] [notice] Parent: Created child process 2228
+[Thu May 16 08:51:33 2019] [notice] Child 2228: Child process is running
+[Thu May 16 08:51:33 2019] [notice] Child 2228: Acquired the start mutex.
+[Thu May 16 08:51:33 2019] [notice] Child 2228: Starting 150 worker threads.
+[Thu May 16 08:51:33 2019] [notice] Child 2228: Starting thread to listen on port 80.
