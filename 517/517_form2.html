@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+   //자바 스크립트에서 폼에 입력된 값 가져오기
+  // document.pkc.su.value;
+   //document.pkc.su.value
+   function imsi() //1.함수를 만든다. 함수는 무조건 호출에 의해서
+   {
+     alert( document.pkc.su.value);
+     alert( document.pkc.irum.value);
+   }
+   function bbb()
+   {
+     alert("함수를 불러왔습니다");
+      document.all.aa.style.display="inline";
+   }
+
+  </script>
+ </head>
+ <body>
+   <form name=pkc> <!--함수의 호출은 이벤트를 통해서-->
+     숫자를 입력 :  <input type=text name=su value="hello"> <p>
+     이름 : <input type=text name=irum>
+     <input type=button onclick=imsi() value=클릭>
+
+     <input type=button onmouseover=bbb() value=bbb호출>
+   </form>
+   <div id=aa style="display:none">하하하 </div>
+ </body>
+</html>

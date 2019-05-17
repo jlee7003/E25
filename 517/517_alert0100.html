@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+  function imsi1()
+  {
+    var total=0;
+    for(var i=1;i<=10;i++)
+     total=total+i;
+
+   alert(total);
+  }
+  function imsi2()
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var total=0;
+    for(var i=a;i<=b;i++)
+     total=total+i;
+     alert(total);
+  }
+  function hap()
+  {
+
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var total=0;
+    for(var i=a;i<=b;i++)
+     if(i%2==0)
+     total=total+i;
+
+     alert(total);
+  }
+
+  </script>
+
+ </head>
+ <body>
+   <form name=pkc>
+     숫자1 <input type=text name=num1> <p>
+     숫자2 <input type=text name=num2> <p>
+     <input type=button onclick=imsi1() value="1에서10의합">
+      <input type=button onclick=imsi2() value="a에서b의합">
+      <input type=button onclick=hap() value="a에서b의짝수의합">
+     </form>
+
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+  function imsi1()
+  {
+
+    alert(document.pkc.num1.value);
+  }
+  function imsi2()
+  {
+    alert(document.pkc.num2.value);
+  }
+  function hap()
+  {
+
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    alert(a+b);
+  }
+
+  </script>
+
+ </head>
+ <body>
+   <form name=pkc>
+     숫자1 <input type=text name=num1> <p>
+     숫자2 <input type=text name=num2> <p>
+     <input type=button onclick=imsi1() value="첫번째 숫자">
+      <input type=button onclick=imsi2() value="두번째 숫자">
+      <input type=button onclick=hap() value="더하기">
+     </form>
+
+ </body>
+</html>
