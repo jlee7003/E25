@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+function over()
+{
+  document.all.aa.src="b.PNG";
+  document.all.aa.width="1000"
+  document.all.aa.height="1000"
+}
+function out()
+{
+   document.all.aa.src="a.PNG";
+   document.all.aa.width="500"
+   document.all.aa.height="500"
+}
+  </script>
+
+ </head>
+ <body>
+  <img id=aa onmouseover=over() onmouseout=out() src=a.PNG width=500 height=500>
+
+ </body>
+</html>
