@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+   function hap()
+   {
+    alert(document.pkc.year.value)
+   }
+  </script>
+ </head>
+ <body> <!--form태그에 있는 value를 통해 작업-->
+   <form name="pkc">
+         이름 <input type=text name=irum> <p>
+         비번 <input type=password name=pwd> <p>
+         소개 <textarea name=sogae cols=40 rows=6>감사합니다앙</textarea><p> //
+         성별 <input type=radio name=sung value=남자>남자
+              <input type=radio name=sung value=여자>여자 <p>
+         취미 <input type=checkbox name=hobby value=0>낚시 <!--checkbox와 radio는 이름이 똑같기에 배열로 접근해야함-->
+              <input type=checkbox name=hobby value=1>여행<!--크롬은 그냥 되지만 익스프롤러는 안됌-->
+              <input type=checkbox name=hobby value=2>독서
+              <input type=checkbox name=hobby value=3>운동 <p>
+         생년 <select name=year>
+              <option value=2010> 2010 </option>
+              <option value=2011> 2011 </option>
+              <option value=2012> 2012 </option>
+              <option value=2013> 2013 </option>
+              <option value=2014> 2014 </option>
+              <option value=2015> 2015 </option>
+              <option value=2016> 2016 </option>
+              <option value=2017> 2017 </option>
+              <option value=2018> 2018 </option>
+              <option value=2019> 2019 </option>
+            </select> <p>
+              <input type=button value=클릭 onclick=hap()>
+              <input type
+
+
+   </form>
+ </body>
+</html>

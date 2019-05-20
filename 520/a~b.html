@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+  <style>
+  </style>
+  <script>
+  function imsi1() //내가 작업할 기능을 추가
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+     var hap=0;
+     for(var i=a;i<=b;i++)
+     {
+      hap=hap+i;
+     }
+    document.pkc.tot11.value=hap;
+  }
+
+  function ab2hap() //내가 작업할 기능을 추가
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+     var total=0;
+     for(var i=a;i<=b;i++)
+     {
+       if(i%2==0)
+       {
+        total=total+i;
+       }
+     }
+    document.pkc.tot11.value=total;
+  }
+
+  function ab3hap() //내가 작업할 기능을 추가
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var total=0;
+    for(var i=a;i<=b;i++)
+    {
+      if(i%3==0)
+      {
+      total=total+i;
+      }
+    }
+
+    document.pkc.tot11.value=total;
+  }
+
+
+   </script>
+ </head>
+ <body>
+
+  <form name=pkc>
+
+    A <input type=text name=num1 size=4> ~+
+      <input type=text name=num2 size=4>
+    <input type=button value==>
+    <input type=text name=tot11> <p>
+
+    <input type=button onclick=imsi1() value="A~B의합">&nbsp;
+    <input type=button onclick=ab2hap() value=A~B의짝수값>&nbsp;
+    <input type=button onclick=ab3hap() value=A~B의3의배수값>&nbsp;
+  </form>
+ </body>
+</html>

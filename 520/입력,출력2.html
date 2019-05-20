@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+  <style>
+  #aa{
+
+    margin: auto;
+    width:300px;
+    height: 80px;
+    border: 0px solid black;
+  }
+  #bb{
+    margin: auto;
+    width:300px;
+    height: 40px;
+    border: 0px solid black;
+  }
+  #cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+    margin: auto;
+    width:300px;
+    height: 40px;
+    border: 0px solid black;
+  }
+  </style>
+  <script>
+
+
+  function hap() //내가 작업할 기능을 추가
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+     var total=a+b;
+    document.pkc.tot.value=total;
+  }
+  function sub()
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var min=a-b;
+    document.pkc.tot.value=min;
+  }
+
+  function gop()
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var mul=a*b;
+    document.pkc.tot.value=mul;
+  }
+  function namum()
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+    var nanugi=a/b;
+    document.pkc.tot.value=nanugi;
+  }
+   </script>
+ </head>
+ <body>
+     <div id=aa>
+  <form name=pkc>
+   <div id=bb>
+    A <input type=text name=num1 size=4> +
+    <input type=text name=num2 size=4>
+    <input type=button value==>
+    <input type=text name=tot size=4> <p>
+   </div>
+   <div id=cc>
+    <input type=button onclick=hap() value=+>&nbsp;
+
+
+    <input type=button onclick=sub() value=->&nbsp;
+
+
+
+    <input type=button onclick=gop() value=x>&nbsp;
+
+
+
+    <input type="button" onclick="namum()" value="/">&nbsp;
+    </div>
+   </div>
+  </form>
+ </body>
+</html>

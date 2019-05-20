@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+  <style>
+  </style>
+  <script>
+  function hap() //내가 작업할 기능을 추가
+  {
+    var a=parseInt(document.pkc.num1.value);
+    var b=parseInt(document.pkc.num2.value);
+     var total=a+b;
+    document.pkc.tot.value=total;
+  }
+  function sub()
+  {
+    var a=parseInt(document.pkc.bnum1.value);
+    var b=parseInt(document.pkc.bnum2.value);
+    var min=a-b;
+    document.pkc.btot.value=min;
+  }
+
+  function gop()
+  {
+    var a=parseInt(document.pkc.anum1.value);
+    var b=parseInt(document.pkc.anum2.value);
+    var mul=a*b;
+    document.pkc.mtot.value=mul;
+  }
+  function namum()
+  {
+    var a=parseInt(document.pkc.cnum1.value);
+    var b=parseInt(document.pkc.cnum2.value);
+    var nanugi=a/b;
+    document.pkc.ctot.value=nanugi;
+  }
+   </script>
+ </head>
+ <body>
+  <form name=pkc>
+    A <input type=text name=num1 size=4> +
+    <input type=text name=num2 size=4>
+    <input type=button onclick=hap() value==>
+    <input type=text name=tot size=4> <p>
+
+    B <input type=text name=bnum1 size=3> -
+    <input type=text name=bnum2 size=3>
+    <input type=button onclick=sub() value==>
+    <input type=text name=btot size=3> <p>
+
+    C <input type=text name=anum1 size=3> x
+    <input type=text name=anum2 size=3>
+    <input type=button onclick=gop() value==>
+    <input type=text name=mtot size=4> <p>
+
+    D <input type="text" name="cnum1" size="3"> /
+    <input type="text" name="cnum2" size="3">
+    <input type="button" onclick="nanum()" value="=">
+    <input type="text" name="ctot" size="3">
+  </form>
+ </body>
+</html>

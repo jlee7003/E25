@@ -23,7 +23,8 @@
     var total=0;
     for(var i=a;i<=b;i++)
      total=total+i;
-     alert(total);
+  
+     document.pkc.tot.value=total;
   }
   function hap()
   {
@@ -48,6 +49,7 @@
      <input type=button onclick=imsi1() value="1에서10의합">
       <input type=button onclick=imsi2() value="a에서b의합">
       <input type=button onclick=hap() value="a에서b의짝수의합">
+      <input type=text name=tot>
      </form>
 
  </body>
