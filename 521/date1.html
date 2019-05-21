@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+//자바스크립트를 통한 날짜와 시간을 알기 위한 객체
+//date 객체
+function imsi()
+{
+  var today=new Date();
+
+  cho.innerText=today.getHours()+"시 "+today.getMinutes()+"분 "+today.getSeconds()+"초 ";
+ //새로운 문서를 읽는 개념이라 앞의 것은 사라지게 됨
+
+  setTimeout(imsi,1000);
+
+}
+  </script>
+
+ </head>
+ <body>
+   <input type=button onclick=imsi() value="click"> <p>
+
+
+     <span id=cho></span>
+
+ </body>
+</html>

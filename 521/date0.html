@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  #pkc {
+    color: black;
+
+  }
+  #aa{
+    background: pink
+  }
+  </style>
+  <script>
+//자바스크립트를 통한 날짜와 시간을 알기 위한 객체
+//date 객체
+var a=0;
+setTimeout(imsi,300); //3초 뒤에//1.문서를 읽을떄 실행
+//첫번째 인수(함수)를 두번째 인수(시간) 뒤에 실행
+function imsi()
+{
+    pkc.style.display="none";//2번 실행-> 숨긴다.
+    setTimeout(imsi2,300);
+}
+function imsi2()
+{
+  a=a+1; //
+  if(a<10)
+  {
+    pkc.style.display="inline";//3번 실행 보인다.
+    setTimeout(imsi,300);
+
+  }
+
+}
+
+  </script>
+
+ </head>
+ <body> <!-- onload=imsi()> --> <!--이문서를 읽을때 imsi()함수 실행-->
+   <span id=aa><span id=pkc>동해물과 백두산이 </span></span>
+ </body>
+</html>
