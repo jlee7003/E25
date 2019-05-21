@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+  //Dom
+  //스크립트에서 body 태그내의 각 요소에 접근하기 위한 이름
+  //id,class,태그이름 -> 고유 식별자
+  //이벤트를 통한 함수 호출
+  //id 선택자를 자바스크립트에서 접근하는 방법
+  // ->document.all.dong.style.color="lime";
+ //  -> document.getElementById("bak").style.color="black";
+
+ function imsi()
+ {
+  document.all.dong[0].style.color="lime";
+  document.all.dong[1].style.color="lime";
+  document.all.dong[2].style.color="lime";
+ }
+function imsi2()
+{
+  document.getElementById("dong").style.color="red";
+}
+  </script>
+
+ </head>
+ <body>
+   <input type="button" onclick="imsi()" value="id로 접근">
+   <input type="button" onclick="imsi2()" value="버튼">  <p>
+
+   <span id="dong">동해물</span>과 <span id="dong">백두산</span>이 마르고 닳도록 <p>
+   하느님이 보우하사 <span id="dong">우리나라</span> 만세.
+ </body>
+</html>
