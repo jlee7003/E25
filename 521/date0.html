@@ -20,7 +20,7 @@
 //자바스크립트를 통한 날짜와 시간을 알기 위한 객체
 //date 객체
 var a=0;
-setTimeout(imsi,300); //3초 뒤에//1.문서를 읽을떄 실행
+setTimeout(imsi,300); //3초 뒤에//1.문서를 읽을떄 실행 , 요 함수를 이 시간 뒤에 실행한다.
 //첫번째 인수(함수)를 두번째 인수(시간) 뒤에 실행
 function imsi()
 {
@@ -30,7 +30,7 @@ function imsi()
 function imsi2()
 {
   a=a+1; //
-  if(a<10)
+  if(a<11)//a의 값이 10일 떄 까지만 실행
   {
     pkc.style.display="inline";//3번 실행 보인다.
     setTimeout(imsi,300);

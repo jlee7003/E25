@@ -18,13 +18,13 @@
 
  function imsi()
  {
-  document.all.dong[0].style.color="lime";
+  document.all.dong[0].style.color="lime"; //배열로 하면 모두 이름이 같아도 접근이 가능
   document.all.dong[1].style.color="lime";
   document.all.dong[2].style.color="lime";
  }
 function imsi2()
 {
-  document.getElementById("dong").style.color="red";
+  document.getElementById("dong").style.color="red";//첫번쨰놈만 적용이 됨
 }
   </script>
 
@@ -33,7 +33,7 @@ function imsi2()
    <input type="button" onclick="imsi()" value="id로 접근">
    <input type="button" onclick="imsi2()" value="버튼">  <p>
 
-   <span id="dong">동해물</span>과 <span id="dong">백두산</span>이 마르고 닳도록 <p>
+   <span id="dong">동해물</span>과 <span id="dong">백두산</span>이 마르고 닳도록 <p> <!-- 같은 이름의 아이디가 있으면 자동으로 배열에 들어가게 됨-->
    하느님이 보우하사 <span id="dong">우리나라</span> 만세.
  </body>
 </html>

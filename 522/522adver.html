@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+   #pkc{
+     width:200px;
+     height:100px;
+     background: red;
+     color: white;
+   }
+  </style>
+  <script>
+     //setTimeout(함수명,시간)
+
+     function imsi()
+     {
+          document.all.pkc.style.display="none";
+     }
+     setTimeout(imsi,5000);//2초 뒤에 imsi함수 실행
+  </script>
+ </head>
+ <body>
+  <div id=pkc> 여기는 광고창입니다.</div>
+ </body>
+</html>

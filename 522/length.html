@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+   function check()
+   {
+     var id=document.pkc.userid.value;
+     alert(id.length);
+     var num=1234;
+     num=num+""
+     alert(num.length); //숫자는 길이가 없으므로 문자로 바꿔주어야 함
+   }
+
+  </script>
+</head>
+ <body>
+   <form name=pkc>
+     아이디 <input type=text name=userid> <p>
+       <input type=button onclick=check() value="click!">
+
+   </form>
+  <div id=pkc><div>
+ </body>
+</html>

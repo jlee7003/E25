@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+function aaa()
+{
+  var id=document.all.ffx.userid.value;
+     if(id.length<10)
+     {
+       alert("id의 길이를 10자 이상으로 해주세요.");
+     }
+     else
+      {
+          alert("정상입니다.");
+      }
+
+
+
+}
+  </script>
+ </head>
+ <body>
+   <form name=ffx>
+     아이디 <input type=text name=userid> <p>
+       <input type=button onclick=aaa() value="click!">
+
+ </form>
+ </body>
+</html>

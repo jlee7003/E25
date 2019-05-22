@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  #time{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  </style>
+  <script>
+function aa1()
+{
+  var 수="수요"
+  var today=new Date();
+  var time=document.getElementById("time"); //innertext 안에다가 사용
+  var dayarr=today.getDay()
+  var days= ["일","월","화","수","목","금","토"]
+
+
+   time.innerText=" 오늘은 "+ today.getFullYear()+"년 "+today.getMonth()+"월 "+ today.getDate() +"일 "+ days[dayarr] + "요일 입니다.";
+
+
+
+}
+
+  </script>
+ </head>
+ <body onload="aa1()"> // onload를 사용하면 호출하지 않아도 항상 떠있음
+
+
+<div id="time"> </div>
+ </form>
+ </body>
+</html>
