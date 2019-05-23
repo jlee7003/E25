@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+function open_win()
+{
+  ppp=open("split.html","aa","width=200,height=200");
+  qqq=open("http://www.naver.com","bb","width=200,height=200");//브라우저를 열게 하는 함수
+  //보여줄 문서       문서이름(타겟이름)       브라우저 설정
+  //               (사용자 지정)
+}
+function close_win()
+{
+  ppp.close();
+  qqq.close();
+  //qqq.moveTo(500,200);
+}
+</script>
+</head>
+ <body>
+
+ </form>
+<input type=button onclick=open_win() value=새창열기>
+<input type=button onclick=close_win() value=새창닫기>
+
+<a href="http://www.naver.com" target=aa> 네이버 </a> <!--타겟은 그 해당 브라우저에 문서를 띄우는것-->
+ </body>
+</html>

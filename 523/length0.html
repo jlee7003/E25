@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  #pkc{
+    margin: auto;
+    width: 400px;
+    height 400px;
+
+    border: 1px solid black;
+  }
+  input{
+    border-radius: 40px;
+    background: orange;
+    border: 0px solid black;
+  }
+
+  body{
+    background-color: black;
+    color: orange;
+    display: flex;
+    margin-top:300px;
+
+  }
+
+  input:focus{
+   outline: none;
+  }
+  </style>
+  <script>
+   function check()
+   {
+     var phone=document.pkc.ppn.value;
+     var a=phone.indexOf("-");
+     var b=phone.lastIndexOf("-");
+     var fpn=phone.substring(0,a);
+     var mpn=phone.substring(a+1,b);
+     var lpn=phone.substring(b+1);
+
+     document.pkc.first.value= fpn;
+     document.pkc.mid.value= mpn;
+     document.pkc.last.value= lpn;
+   }
+
+  </script>
+</head>
+ <body>
+   <div id=pkc>
+   <form name=pkc>
+  Enter your phonenumber <input type=text name=ppn > <p>
+  First num <input type=text name=first> <p>
+  Middle num <input type=text name=mid> <p>
+  Last num <input type=text name=last> <p>
+       <input type=button onclick=check() value="click!">
+
+   </form>
+  <div ><div>
+    <div>
+ </body>
+</html>

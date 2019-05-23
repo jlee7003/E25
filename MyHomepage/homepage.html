@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  body {
+    margin:0;
+  }
+  input{
+    border-radius: 5px;
+  }
+#maindiv{
+  width:1880px;
+  height:1000px;
+  border:0px solid black;
+  display:flex;
+}
+#mainleft{
+  width:580px;
+  height:1000px;
+  border:0px solid black;
+  background-color: #6799FF;
+}
+#mainleft #tool{
+  width:580px;
+  height:60px;
+  border:0px solid black;
+  display:flex;
+}
+#search
+{
+  background-color: #6799FF;
+  border:0px solid #6799FF;
+}
+#list
+{
+  background-color: #6799FF;
+  border:0px solid #6799FF;
+}
+#mainleft #tool #toolbox
+{
+  width:145px;
+  height:60px;
+  border:0px solid black;
+  display: flex;
+  align-items: center;
+}
+#mainleft #tool #toolboxr
+{
+  width:145px;
+  height:60px;
+  border:0px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#mainleft #icon
+{
+  width:580px;
+  height:410px;
+  border:0px solid red;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+#mainleft #icona
+{
+  width:580px;
+  height:100px;
+  border:0px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+#mainleft #icon2{
+  width:580px;
+  height:100px;
+  border:0px solid red;
+  display: flex;
+}
+#mainleft #icon2 #userid
+{
+  width:203.33px;
+  height:100px;
+  color: white;
+    border:0px solid green;
+    font-size: 13px;
+
+}
+#mainleft #icon2 #userid #inid
+{
+  width:203.33px;
+  height:50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border:0px solid blue;
+}
+#mainleft #icon2 #userid #inpwd
+{
+  width:203.33px;
+  height:50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+    border:0px solid black;
+}
+#mainleft #icon2 #mainpwd
+{
+  width:193.33px;
+  height:100px;
+}
+
+#mainleft #icon2 #pwd
+{
+  width:193.33px;
+  height:50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+    border:0px solid red;
+}
+#mainleft #icon2 #pwd1
+{
+  width:193.33px;
+  height:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border:0px solid black;
+}
+#mainleft #icon2 #pwd2
+{
+  width:153.33px;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+    border:0px solid black;
+}
+#mainleft #login
+{
+  width:580px;
+  height:380px;
+  border:1px solid black;
+
+}
+#button{
+  width:50px;
+  height:50px;
+  border-radius: 10px;
+background-color: skyblue;
+border: 0px solid black;
+color: white;
+
+}
+#bottombox
+{
+  width:580px;
+  height:240px;
+  border:0px solid black;
+}
+#mainright{
+  width:1380px;
+  height:1000px;
+  border:0px solid black;
+}
+#mainright #tool{
+  width:1380px;
+  height:100px;
+  border:1px solid black;
+}
+  </style>
+  <script>
+  </script>
+ </head>
+ <body>
+  <div id=maindiv>
+
+<div id=mainleft>
+  <div id=tool>
+   <div id=toolbox><button id=list>&nbsp;<img width=30 height=30 src=menuicon.PNG></button></div>
+   <div id=toolbox></div>
+   <div id=toolbox></div>
+   <div id=toolboxr><button id=search><img width=30 height=30 src=search.PNG></button> &nbsp;</div>
+  </div>
+  <hr>
+  <div id=icon><img width=200 height=200 src=beach.PNG>  </div>
+  <div id=icona> Welcome! to E25 blog </div>
+  <hr>
+    <div id=icon2>
+<div id=userid>
+  <div id=inid> ID</div>
+  <div id=inpwd>PASSWORD</div>
+</div>
+<div id=mainpwd>
+<div id=pwd><input type=text></div>
+<div id=pwd1> <input type=password></div>
+</div>
+<div id=pwd2> <button id=button> login </button> </div>
+    </div>
+
+    <div id=bottombox></div>
+
+</div>
+
+<div id=mainright>
+<div id=tool></div>
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+</div>
+
+ </body>
+</html>

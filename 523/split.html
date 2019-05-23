@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+function imsi()
+{
+   
+   var cardi=document.pkc.card.value
+
+
+   var num=cardi.split("-");
+
+   document.pkc.card1.value=num[0];
+    document.pkc.card2.value=num[1];
+     document.pkc.card3.value=num[2];
+      document.pkc.card4.value=num[3];
+}
+
+</script>
+</head>
+ <body>
+   <form name=pkc>
+     카드번호 <input type=text name=card> <p>
+       1: <input type=text name=card1> <br>
+       2: <input type=text name=card2> <br>
+       3: <input type=text name=card3> <br>
+       4: <input type=text name=card4> <br>
+       <input type=button onclick=imsi() value=번호분리>
+   </form>
+
+ </body>
+</html>
