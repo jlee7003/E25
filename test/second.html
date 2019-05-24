@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function aa()
+ {
+ var n=parseInt(document.pkc.num1.value);
+ var m=parseInt(document.pkc.num2.value);
+ var a=n*m;
+ document.pkc.result.value=a;
+}
+
+function aa1()
+{
+var n=parseInt(document.pkc.num1.value);
+var m=parseInt(document.pkc.num2.value);
+var sum=0;
+  for(var i=n;i<m;i++)
+  {
+      if(i%2==0)
+        {
+      sum=sum+i;
+        }
+        var a=sum;
+  }
+
+document.pkc.result.value=a;
+}
+
+function aa2()
+{
+var n=parseInt(document.pkc.num1.value);
+var m=parseInt(document.pkc.num2.value);
+if(n<m)
+document.pkc.result.value=n;
+else
+document.pkc.result.value=m;
+}
+</script>
+
+ <body>
+  <h2>문제) 두수를 입력후 버튼의 종류에 따라 결과 출력 <p>
+   <form name=pkc>
+     1 : <input type=text name=num1>
+	 2: <input type=text name=num2> <p>
+	<input type=button onclick=aa() value=곱하기>
+	<input type=button onclick=aa1() value="num1에서 num2까지의 짝수의 합">
+	<input type=button onclick=aa2() value="두수 중 낮은값 출력">
+	<p>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+
+ </body>
+</html>

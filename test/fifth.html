@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+  var email=document.pkc.email.value;
+  var n=email.indexOf("@");
+  var cut=email.substring(0,n);
+  document.pkc.new_email.value= cut+"@channy.co.kr";
+
+ }
+  </script>
+ <body>
+  <h2>문제) 버튼을 누르면 '기존 이메일' 주소에서 아이디만 잘라서 새로운 이메일 "아이디@channy.co.kr"를 '바뀐 이메일'에 출력 <p>
+   <form name=pkc>
+     기존 이메일 <input type=text name=email>
+	 <input type=button onclick=imsi() value="이메일 서버 channy.co.kr로 바꿈"> <p>
+	 <hr>
+	 바뀐 이메일 <input type=text name=new_email>
+   </form>
+   <hr>
+
+ </body>
+</html>

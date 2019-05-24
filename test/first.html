@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function test1()
+ {
+ var n=parseInt(document.pkc1.num.value);
+ var m=parseInt(document.pkc1.num2.value);
+  var a=n+m;
+ document.pkc1.result.value=a;
+}
+function test2()
+{
+  var n=parseInt(document.pkc2.num1.value);
+  var m=parseInt(document.pkc2.num2.value);
+  var sum=0;
+  for(var i=n;i<m;i++)
+     sum=sum+i;
+  var a=sum;
+  document.pkc2.result.value=a;
+}
+function test3()
+{
+  var n=parseInt(document.pkc3.num1.value);
+  var m=parseInt(document.pkc3.num2.value);
+  var a=parseInt(Math.random()*m-n+1)+n;
+
+  document.pkc3.result.value=a;
+}
+ </script>
+ <body>
+  <h2>문제1) 두수를 입력후 계산 버튼을 누르면 더한 후  출력 <p>
+   <form name=pkc1>
+    <input type=text name=num> +
+	 <input type=text name=num2>
+	<input type=button onclick=test1() value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+   <h2>문제2) a와 b의 값을 입력후 계산 버튼을 누르면 a부터 b까지의 합계 출력 <p>
+   <form name=pkc2>
+    a : <input type=text name=num1>
+	b : <input type=text name=num2>
+	<input type=button onclick=test2() value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+   <h2>문제3) a와 b의 값을 입력후 계산 버튼을 누르면 a부터 b까지의 임의의 값 출력 <p>
+   <form name=pkc3>
+    a : <input type=text name=num1>
+	b : <input type=text name=num2>
+	<input type=button onclick=test3() value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+ </body>
+</html>

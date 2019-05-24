@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+   // 0524/child.html
+   function mov()
+   {
+     //자식 부모 관계여야지만 서로 정보공유나 관여가 가능해짐
+     //-> 서로 바꿀수도 있음
+     //부모는 하나이기에 이름이 없음
+     //부모는 opener라고 부름
+     opener.document.pkc.ex1.value=document.pkc.ex1.value;
+	opener.document.pkc.ex2.value=document.pkc.ex2.value;
+	opener.document.pkc.ex3.value=document.pkc.ex3.value;
+  opener.document.getElementsByTagName("input")[0].style.background="red";
+  opener.document.getElementById("bord")style.
+   }
+  </script>
+ </head>
+ <body>
+  <form name=pkc>
+    입력1 <input type=text name=ex1> <p>
+	입력1 <input type=text name=ex2> <p>
+	입력1 <input type=text name=ex3> <p>
+	<input type=button onclick=mov() value=부모에게>
+  </form>
+ </body>
+</html>

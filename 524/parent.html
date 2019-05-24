@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <script>
+   // 0524/parent.html
+   function mov()
+   {
+     alert(document.pkc.ex1.value);
+     child.document.pkc.ex1.value=document.pkc.ex1.value;
+	  child.document.pkc.ex2.value=document.pkc.ex2.value;
+	  child.document.pkc.ex3.value=document.pkc.ex3.value;
+   }
+   function open_win()
+   {
+     child=open("child.html","","width=300,height=200");
+   }
+  </script>
+ </head>
+ <body>
+  <input type=button onclick=open_win() value=자식창열기> <p>
+  <form name=pkc>
+    입력1 <input type=text name=ex1> <p>
+	입력1 <input type=text name=ex2> <p>
+	입력1 <input type=text name=ex3> <p>
+	<input type=button onclick=mov() value=자식에게>
+  </form>
+ </body>
+</html>

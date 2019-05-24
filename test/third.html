@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+ var today=new Date();
+ document.pkc.year.value=today.getFullYear()
+ document.pkc.month.value=today.getMonth()+1
+ document.pkc.day.value=today.getDate()
+ }
+  </script>
+ <body>
+  <h2>문제) 버튼을 누르면 적절한 값을 Date()를 사용하여 입력 <p>
+   <form name=pkc>
+     <input type=text name=year>년
+	 <input type=text name=month>월
+	 <input type=text name=day>일
+	 <input type=button onclick=imsi() value="년월일 구하기">
+   </form>
+   <hr>
+
+ </body>
+</html>

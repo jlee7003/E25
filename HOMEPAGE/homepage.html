@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  #main{
+    margin: auto;
+    width:1800px;
+    height:2000px;
+    border: 1px solid black;
+  }
+#asclo
+{
+  margin: auto;
+  width:1600px;
+  height:2000px;
+  border: 0px solid black;
+}
+#header
+{
+  margin: auto;
+  display: flex;
+  width:1600px;
+  height:30px;
+  border: 0px solid black;
+}
+#header #left
+{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width:800px;
+  height:30px;
+  border: 1px solid black;
+}
+#header #covright{
+  width:800px;
+  height:30px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+#header #covright #right
+{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width:200px;
+  height:30px;
+  border: 0px solid black;
+  box-shadow:1px 2px #eeeeee;
+
+}
+#searchtext{
+  border: 0px solid black;
+}
+#mark
+{
+  margin: auto;
+  display:flex;
+  width:1600px;
+  height:150px;
+  border: 1px solid black;
+}
+#mark #left
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  width:1550px;
+  height:150px;
+  border: 1px solid black;
+}
+#mark #right
+{
+  width:50px;
+  height:150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+}
+#mark #right #kart
+{
+  border:1px solid black;
+
+}
+
+#cate
+{
+  margin: auto;
+  display: flex;
+  width:1600px;
+  height:30px;
+  border: 1px solid black;
+  box-shadow:1px 2px #eeeeee;
+}
+#cate #left
+{
+  display: flex;
+  width:800px;
+  height:30px;
+  border: 1px solid black;
+  color: gray;
+  align-items: center;
+}
+#cate #left #catesize
+{
+  width:80px;
+  height:30px;
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+}
+#cate #right
+{
+  display:flex;
+  justify-content: flex-end;
+  width:800px;
+  height:30px;
+  border: 1px solid black;
+  color: gray;
+}
+#cate #right #catesize
+ {
+   width:100px;
+   height:30px;
+   border: 1px solid black;
+   align-items: center;
+   display: flex;
+}
+#cate #right #catesize1
+ {
+   width:45px;
+   height:30px;
+   border: 1px solid black;
+   align-items: center;
+   display: flex;
+}
+#cate #right #catesize2
+ {
+   width:60px;
+   height:30px;
+   border: 1px solid black;
+   align-items: center;
+   display: flex;
+}
+
+#subcate
+{
+  margin: auto;
+  width:1600px;
+  height:75px;
+  border: 1px solid black;
+  box-shadow:1px 2px #eeeeee;
+}
+#anipicture
+{
+  margin: auto;
+  width:1600px;
+  height:725px;
+  border: 1px solid black;
+}
+#new
+{
+  margin: auto;
+  width:1600px;
+  height:200px;
+  border: 1px solid black;
+}
+#vaner
+{
+  margin: auto;
+
+}
+ </style>
+  <script>
+  </script>
+ </head>
+ <body>
+   <div id=main>
+  <div id=asclo>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=header>
+      <div id=left><img src=kor.PNG></div>
+       <div id=covright><div id=right> <input id=searchtext type=text ><img width=20 height=20 src=search.PNG></div></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=mark>
+<div id=left><img width=100 height=45 src="asclo.PNG"></div>
+<div id=right><span id=kart><img width=45 height=45 src=kart.PNG></span></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=cate>
+      <div id=left>
+        <div id=catesize>LOGIN</div>
+        <div id=catesize>JOIN US</div>
+        <div id=catesize>CART(0)</div>
+        <div id=catesize>ORDER</div>
+        <div id=catesize>MYPAGE</div>
+      </div>
+       <div id=right>
+        <div id=catesize2>NOTICE</div>
+        <div id=catesize1>FAQ</div>
+        <div id=catesize1>Q&A</div>
+        <div id=catesize2>REVIEW</div>
+        <div id=catesize>MEMBERSHIP</div>&nbsp;
+        <div id=catesize>BOOKMARK</div>
+        <div id=catesize>DELIVERY</div>
+        <div id=catesize1><img width=40 height=20 src="face.PNG"></div>
+
+       </div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=subcate>
+
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=anipicture>
+
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=new>
+
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=vaner>
+
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+  </div>
+</div>
+
+ </body>
+</html>
