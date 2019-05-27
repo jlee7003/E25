@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+    #first {
+      width:100px;
+	  height:0px;
+	  background:red;
+	  position:absolute;
+	  left:200px;
+	  top:100px;
+    overflow: hidden;
+	}
+
+  </style>
+  <script>
+
+  var y=0;
+function imsi()
+{
+  first.style.height=y+"px";
+  y=y+1;
+   if(y>=200)
+    clearInterval(ss);
+}
+function imsi2()
+{
+ss=setInterval(imsi,1);
+}
+function imsi3()
+{
+  first.style.height=y+"px";
+  y=y-1;
+   if(y<0)
+    clearInterval(ss);
+}
+function imsi4()
+{
+ss=setInterval(imsi3,1);
+}
+
+  </script>
+ </head>
+ <body>
+  <h2>문제) 버튼을 누르면 레이어의 가로와 세로를 200X200크기로 변환<p>
+   <input type=button onmouseover=imsi2() value=변환 onmouseout=imsi4()>
+    <input type=button value=변환 onmouseout=imsi4()>
+   <div id=first>
+   한국음식<p>
+      한국음식<p>
+       한국음식<p></div>
+ </body>
+</html>

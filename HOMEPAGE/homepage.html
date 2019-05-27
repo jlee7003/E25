@@ -5,16 +5,16 @@
   <style>
   #main{
     margin: auto;
-    width:1800px;
-    height:2000px;
+    width:100%;
+    height:4000px;
     border: 1px solid black;
   }
 #asclo
 {
   margin: auto;
   width:1600px;
-  height:2000px;
-  border: 0px solid black;
+  height:2795px;
+  border: 1px solid red;
 }
 #header
 {
@@ -109,6 +109,7 @@
 {
   width:80px;
   height:30px;
+     justify-content: center;
   border: 1px solid black;
   align-items: center;
   display: flex;
@@ -124,26 +125,38 @@
 }
 #cate #right #catesize
  {
-   width:100px;
+   width:120px;
    height:30px;
    border: 1px solid black;
    align-items: center;
+      justify-content: center;
+   display: flex;
+}
+#cate #right #delivery
+ {
+   width:95px;
+   height:30px;
+   border: 1px solid black;
+   align-items: center;
+      justify-content: center;
    display: flex;
 }
 #cate #right #catesize1
  {
-   width:45px;
+   width:55px;
    height:30px;
    border: 1px solid black;
    align-items: center;
+      justify-content: center;
    display: flex;
 }
 #cate #right #catesize2
  {
-   width:60px;
+   width:70px;
    height:30px;
    border: 1px solid black;
    align-items: center;
+   justify-content: center;
    display: flex;
 }
 
@@ -152,26 +165,148 @@
   margin: auto;
   width:1600px;
   height:75px;
-  border: 1px solid black;
+  border: 0px solid black;
+  display: flex;
   box-shadow:1px 2px #eeeeee;
+}
+#subcate #subsize
+{
+  margin: auto;
+  width:95px;
+  height:75px;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  border: 0px solid black;
+
+}
+#gongbaek
+{
+  margin: auto;
+  width:1600px;
+  height:23px;
+  border: 1px solid orange;
 }
 #anipicture
 {
   margin: auto;
   width:1600px;
   height:725px;
+  overflow:hidden;
+  border: 0px solid black;
+}
+#subpic
+{
+  margin: auto;
+  display: flex;
+  width:1600px;
+  height:650px;
+  border: 1px solid red;
+}
+#subpic #subpicbox
+{
+
+  width: 520px;
+  height:500;
+  display:flex;
+  align-items: center;
   border: 1px solid black;
 }
-#new
+#subpic #subpicbox #pic
+{
+
+  width: 100%;
+  height:50%;
+  border: 0px solid black;
+}
+
+#weekly
+{
+
+  background-color: #EAEAEA;
+  margin: auto;
+  width:1600px;
+  height:1100px;
+  border: 1px solid black;
+}
+#weekly #head
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width:1600px;
+  height:100px;
+  border: 1px solid black;
+}
+#weekly #arm
+{
+  justify-content: center;
+  display: flex;
+  width:1600px;
+  height:100px;
+  border: 1px solid green;
+}
+#weekly #arm #out
+{
+  width:200px;
+  height:100px;
+  border: 1px solid green;
+}
+#weekly #arm #box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  width:120px;
+  height:100px;
+  border: 1px solid green;
+}
+#weekly #arm #box:hover
+{
+  color:black;
+  text-decoration: underline;
+}
+#weekly #body
+{
+  display: flex;
+  justify-content: center;
+  width:1600px;
+  height:800px;
+  border: 0px solid black;
+}
+#weekly #body #mainbody
+{
+  width:1440px;
+  height:800px;
+  border: 1px solid blue;
+}
+#foot
 {
   margin: auto;
   width:1600px;
-  height:200px;
-  border: 1px solid black;
+  height:600px;
+  display: flex;
+  border: 1px solid blue;
+
+
 }
-#vaner
+#foot #footbox
 {
   margin: auto;
+  width:533.3px;
+  height:600px;
+  border: 1px solid blue;
+
+
+}
+
+#footer
+{
+  margin: auto;
+  width:100%;
+  height:600px;
+  background:#EAEAEA;
 
 }
  </style>
@@ -180,6 +315,7 @@
  </head>
  <body>
    <div id=main>
+<!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
   <div id=asclo>
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
     <div id=header>
@@ -205,31 +341,127 @@
         <div id=catesize1>FAQ</div>
         <div id=catesize1>Q&A</div>
         <div id=catesize2>REVIEW</div>
-        <div id=catesize>MEMBERSHIP</div>&nbsp;
+        <div id=catesize>MEMBERSHIP</div>
         <div id=catesize>BOOKMARK</div>
-        <div id=catesize>DELIVERY</div>
+        <div id=delivery>DELIVERY</div>
         <div id=catesize1><img width=40 height=20 src="face.PNG"></div>
 
        </div>
     </div>
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
     <div id=subcate>
-
+      <div id=subsize></div>
+      <div id=subsize>ONlY ASCLO</div>
+      <div id=subsize>THANKS</div>
+      <div id=subsize>OUTER</div>
+      <div id=subsize>SUIT</div>
+      <div id=subsize>TOP</div>
+      <div id=subsize>SHIRT</div>
+      <div id=subsize>KNIT</div>
+      <div id=subsize>BOTTOM</div>
+      <div id=subsize>SHOES</div>
+      <div id=subsize>ACC</div>
+      <div id=subsize>PERFECT LINE</div>
+      <div id=subsize>+5CM</div>
+      <div id=subsize>ASCLO FIT</div>
+      <div id=subsize></div>
     </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=gongbaek></div>
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
     <div id=anipicture>
+       <div><img src="asclo1.PNG" width=1600 height=725> </div>
+       <div><img src="asclo2.PNG" width=1600 height=725></div>
+       <div><img src="asclo3.PNG" width=1600 height=725></div>
+       <div><img src="asclo4.PNG" width=1600 height=725></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=subpic>
+     <div id=subpicbox><img id=pic src="subasclo1.PNG" ></div> &nbsp;&nbsp;&nbsp;
+     <div id=subpicbox><img id=pic src="subasclo2.PNG" ></div> &nbsp;&nbsp;&nbsp;
+     <div id=subpicbox><img id=pic src="subasclo3.PNG" ></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=weekly>
+    <div id=head>WEEKLY PRODUCT</div>
+    <div id=arm>
+     <div id=out></div>
+     <div id=box>Outer</div>
+     <div id=box>Top</div>
+     <div id=box>Shirt</div>
+     <div id=box>Knit</div>
+     <div id=box>Bottom</div>
+     <div id=box>Suit</div>
+     <div id=box>Acc</div>
+     <div id=out></div>
+    </div>
+    <div id=body>
+      <div id=mainbody>
+        <table width=1300 height=750 cellspacing="10" border="1" align="center" bordercolor=red>
+       <tr height=370>
+         <td rowspan="4"><img width=590 height=760 src="week1.PNG" ></td>
+         <td><img width=260 height=370 src="week2.PNG" ></td>
+         <td><img width=260 height=370 src="week3.PNG" ></td>
+         <td><img width=260 height=370 src="week4.PNG" ></td>
+       <tr>
+         <tr height=370>
+
+           <td><img width=260 height=370 src="week5.PNG" ></td>
+           <td><img width=260 height=370 src="week6.PNG" ></td>
+           <td><img width=260 height=370 src="week7.PNG" ></td>
+         <tr>
+       </table>
+      </div>
+    </div>
+    <div id=gongbaek></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=foot>
+    <div id=footbox>
+      ABOUT US <br>
+      company:애즈클로 <br>
+      owner:서홍일,서지우 <br>
+      tel:070-4477-9922 email.hi880515@naver.com <br>
+      business no.204-29-34817 <br>
+      mail order license.2016-서울동대문-0071호[사업자정보확인] <br>
+      address.[02568] 서울특별시 성동구 청계천로 468 3층 <p>
+
+     [교환/반품 주소지] <br>
+      서울특별시 동대문구 난게로30길 23 (신설동) 7층 <br>
+      CJ대한통운 택배고객센터: 1588-1255
+    </div>
+    <div id=footbox>
+      C/S center<p>
+      070-4477-9922<br>
+    </div>
+    <div id=footbox></div>
+    </div>
+    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <div id=>
 
     </div>
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
-    <div id=new>
-
-    </div>
-    <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
-    <div id=vaner>
+    <div id=>
 
     </div>
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
   </div>
+  <div id=footer >
+
+  <div>
+
+
+  </div>
+
+  <div>
+
+
+  </div>
+  <div></div>
+  </div>
+
+  <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+
 </div>
 
  </body>

@@ -9,12 +9,16 @@
  var today=new Date();
  sisi.innerText=today.getHours()+"시 "+ today.getMinutes()+"분 "+ today.getSeconds()+"초";
  }
+ function aa1()
+ {
+   setInterval(imsi,1000)
+ }
   </script>
  <body>
   <h2>문제) 버튼을 누르면 "??시??분??초" 를 표시하고 자동으로 변환되게 <p>
    <form name=pkc>
      <div id=sisi><input type=text name=sigan></div>
-	 <input type=button onclick=imsi() value="시간 표시하기">
+	 <input type=button onclick=aa1() value="시간 표시하기">
    </form>
    <hr>
 
