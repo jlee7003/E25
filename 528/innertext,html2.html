@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+ function chg1()
+ {
+   document.all.aa.innerText="1절입니다.";
+ }
+ function chg2()
+ {
+   document.all.bb.innerHTML="<span style='color:blue'> 남해물 </span>";
+ }
+ function chg3()
+ {
+   document.all.cc.innerText=" 남산";
+   cc.style.color="green";
+ }
+ function chg4()
+ {
+   document.all.ee.innerHTML=
+ }
+</script>
+</head>
+ <body>
+ <h2 id=aa onclick=chg1()> 애국가 1절 </h2>
+   <span id=bb onclick=chg2()>동해물</span>과
+   <b id=cc  onclick=chg3()> 백두산</b>
+   이 마르고 닳도록 <p>
+ <u id=dd> 하느님 </u> 이 보우하사 <div id=ee onclick=chg4()> 우리나라</div> 만세
+
+  </body>
+</html>

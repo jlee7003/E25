@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+   var a=parseInt(document.pkc1.num1.value);
+   var b=parseInt(document.pkc1.num2.value);
+   document.pkc1.result.value=a+b;
+ }
+
+ </script>
+ <body>
+  <h2>문제1) 두수를 입력후 계산 버튼을 누르면 더한 후  출력 <p>
+   <form name=pkc1>
+     <input type=text name=num1> +
+	 <input type=text name=num2>
+	<input type=button onclick=imsi() value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+   <h2>문제2) a와 b의 값을 입력후 계산 버튼을 누르면 a부터 b까지의 합계 출력 <p>
+   <form name=pkc2>
+    a : <input type=text name=num1>
+	b : <input type=text name=num2>
+	<input type=button value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+   <h2>문제3) a와 b의 값을 입력후 계산 버튼을 누르면 a부터 b까지의 임의의 값 출력 <p>
+   <form name=pkc3>
+    a : <input type=text name=num1>
+	b : <input type=text name=num2>
+	<input type=button value=계산>
+	결과 <input type=text name=result>
+   </form>
+   <hr>
+ </body>
+</html>

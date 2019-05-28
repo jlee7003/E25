@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+ //마우스 커서를 욺기는 명령어
+function check()
+{ //다른 것도 넘아가게 만들어보dow
+  var bun=document.pkc.card1.value;
+  if(bun.length==4)
+  document.pkc.card2.focus();
+}
+
+</script>
+</head>
+ <body>
+   <form name=pkc>
+    <input type=text name=card1 maxlength="4" size=4 onkeypress=check()> <!--이러한 경우에는 keyup을 사용해주어야 함-->
+    <input type=text name=card2 size=4>
+    <input type=text name=card3 size=4>
+    <input type=text name=card4 size=4>
+   </form>
+
+ </body>
+</html>

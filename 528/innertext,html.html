@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+  function imsi()
+  {
+    // location.href="http://www.naver.com"; //장바구니 , 다른 페이지로 이동할때,form 태그도 다른 페이지로 이동 가능 href 생략 가능
+    location.reload();
+  }
+  function input()
+  {
+    pkc.innerText="<b style='color:red'> 글자 그대로 출력 </b>";
+    pkc2.innerHTML="<b style='color:red'> html로 번역함</b>";
+  }
+  // setTimeout(imsi,5000);
+</script>
+</head>
+ <body>
+<input type=button onclick=imsi() value=reload>
+<input type=button onclick=input() value=글자넣기>
+<div id=pkc></div>
+<div id=pkc2></div>
+ </body>
+</html>

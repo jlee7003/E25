@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+  body{
+
+    background-color: black;
+    color: pink;
+  }
+input{
+  border-radius: 5px;
+}
+  </style>
+  <script>
+ //load
+ //unload
+ //click
+ //mouseover
+ //mouseout
+ //mousemove
+//  ----키보드----
+ // keydown, keyup, keypress, resize-브라우저의 크기를 줄이는 것 반응형 할때 주로 사용 scroll
+ // focus-키보드 입력 칸에 마우스가 들어갈때 내가 특정 영역 안으로 들어갈때 초점이 모아질때,blur-초점이 모여지고 밖으로 나갈때
+ //change-셀렉트 태그 쓸때, 월래 값이 바뀌었을 경우 발생되는 이벤트.
+ function chk()// 웹개발자가 사용자가 아이디를 입력하기 위해 입력양식에 커서가 들어오면
+ {
+   aa.innerHTML="<span style='color:pink'> 아이디는 6글자 이상</span> "//대괄호 안에는 무조건 소괄호로 ㄱㄱ
+ }
+ function imsi()// 웹개발자가 사용자가 아이디를 입력하기 위해 입력양식에 커서가 들어오면
+ {
+   bb.innerHTML="<span style='color:pink'> 회원가입 되었습니다. </span> "//대괄호 안에는 무조건 소괄호로 ㄱㄱ
+ }
+ function imsi2()// 웹개발자가 사용자가 아이디를 입력하기 위해 입력양식에 커서가 들어오면
+ {
+   cc.innerHTML="<span style='color:pink'> 특수문자를 포함하세요. </span> "//대괄호 안에는 무조건 소괄호로 ㄱㄱ
+ }
+
+</script>
+</head>
+ <body>
+<form>
+  아이디  <input type=text name=userid onfocus=chk()>
+   <span id=aa></span> <p>
+     비밀번호  <input type=password name=pwd onfocus="imsi2()">  <span id=cc></span><p>
+    소개 <textarea cols="30" rows="4" name=sogae></textarea><p>
+      <input type=button onclick=imsi() value= 회원가입> <span id=bb></span> <p>
+   </form>
+ </body>
+</html>

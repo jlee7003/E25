@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head> <!-- head 태그 안에 script 적기-->
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+  <script>
+function aaa() //커서가 들어오면 id글자 없애기 나가면 다시 나타내기
+{
+  document.pkc.userid.value="";
+  var aa= document.pkc.userid.value;
+  
+
+}
+function bbb()
+{
+  var pp= document.pkc.userid.value;
+  if(pp.length==0)//(pp=="")
+ document.pkc.userid.value="아이디";
+}
+</script>
+</head>
+ <body>
+   <form name=pkc>
+     아이디  <input type=text name=userid value=아이디 onfocus=aaa() onblur=bbb()> <p>
+   비밀번호  <input type=password name=pwd onfocus="imsi2()" placeholder="비밀번호">
+         <input type=button onclick=imsi() value= 로그인>
+   </form>
+
+ </body>
+</html>
