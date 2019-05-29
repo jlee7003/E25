@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+  #aa{
+    width:100px;
+    height:20px;
+    border: 1px solid green;
+    background:#dddddd;
+    cursor:pointer; /* default; 마우스의 모양을 어찌 할것인가 default는 커서 모양 그대로
+                      pointer는 손모양
+
+    */
+   }
+  </style>
+</head>
+
+<script>
+function imsi()
+{
+  alert("클릭클릭클릭")
+}
+</script>
+ <body>
+
+<!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ버튼 만드는 법 --------------------->
+	 <input type=button value="클릭" onclick=imsi()>
+   <div id=aa>"클릭하세요"</div>
+   <button onclick=imsi()>클릭하세요 <img src=a.PNG width=20> </button> <p>
+   <a href="javascript:imsi()"> 클릭</a> <!--온클릭도 사용가능-->
+   <!-- a태그는 클릭 기능이 포함되어 있다-->
+
+
+ </body>
+</html>

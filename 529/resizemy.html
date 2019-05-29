@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <style>
+ #pkc{
+   font-size: 100px;
+ }
+ #aa{
+
+ }
+ </style>
+ <script>
+//1em
+
+ function init()
+ {//브라우저의 가로 크기 /7-> 글자크기
+   pkc.style.fontSize=innerWidth/7+"px";
+
+   aa.style.width=innerWidth/1+"px"; //innerwidth는 창의 가로크키 1이라면 1로 나누는 것이므로
+   //                                 수의 크기가 늘어날 수록 가로크기가 줄어듬
+ }
+ function resize()
+ {
+ //window.innerWidth 윈도우는 생략이 가능
+ var wid=innerWidth/7;
+ pkc.style.fontSize=wid+"px";
+ aa.style.width=innerWidth/1+"px";
+
+ }
+ window.onresize=resize; //반응형 웹 만들때 사용 모니터 크기에 따라 웹의 모양이 달라짐
+
+
+ </script>
+
+ <body onload=init()>
+   <div id=pkc>안녕하세요</div>
+   <input type=text id=aa>
+ </body>
+</html>

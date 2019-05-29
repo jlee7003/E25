@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+  //alert("변경됨");
+  aa.innerText=document.pkc.sel.value;
+
+ }
+ function imsi2()
+ {
+
+  alert("이름을 바꿉니다.");
+
+
+ }
+
+ </script>
+
+ <body>
+   <form name=pkc>
+    <select name=sel onchange="imsi()"> <!--값이 변경 되었을 경우 실행 됨-->
+      <option>선택 </option>
+      <option>짜장 </option>
+      <option>떡볶이 </option>
+      <option>파스타 </option>
+      <option>족발 </option>
+      <option>치킨 </option>
+      <option>명랑핫도그 </option>
+    </select>
+      선택음식 : <span id=aa></span>
+      <input type=text onchange=imsi2() name=irum value="이의호"> <!-- 상자 안의 내용이 바뀔때 실행되는 함수-->
+
+
+   </form>
+
+ </body>
+</html>

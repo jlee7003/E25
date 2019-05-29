@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <style>
+ </style>
+ <script> //스크립트가 밑에 있을 경우 스크립트가 실행됨 하지만
+function init(){    //이렇게 하면 스크립트들이 지저분하게 됨 그래서 로드를 사용
+ //onload-> 문서를 읽을때 바로 실행하는 것
+document.all.pkc.style.color="red";
+}
+//window.onload=function() //함수의 이름 없이 구현하는 방식을 임의구현이라고 함
+//{
+//  document.all.pkc.style.color="blue";
+//}
+function imsi2()
+{
+  alert("hahaha");
+}
+ </script>
+
+ <body onload=init() onunload=imsi2()> <!-- onload의 반대개념임-->
+   <div id=pkc>안녕하세요</div>
+ </body>
+
+</html>

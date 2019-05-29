@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+    #pkc {
+      
+	}
+  </style>
+  <script> // resize.html
+     function init() // 문서를 읽을때 실행
+	 {  // 브라우저의 가로크기 / 7 => 글자크기
+        pkc.style.fontSize=innerWidth/7+"px";
+		aa.style.width=innerWidth/3+"px";
+	 }
+     function resize()
+	 {
+       // window.innerWidth : 브라우저 가로길이
+	   var wid=innerWidth/7;
+ 
+	   pkc.style.fontSize=wid+"px";
+	   aa.style.width=innerWidth/3+"px";
+	 }
+	 window.onresize=resize;
+  </script> 
+  </head>
+ <body onload=init()>
+    <div id=pkc>안녕하세요</div> <p>
+	<input type=text id=aa>
+ </body>
+</html>
