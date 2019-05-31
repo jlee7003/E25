@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ </head>
+ <script>
+ function imsi()
+ {
+
+   var irum=new Array();
+        var a=parseInt((Math.random()*10));
+
+
+           var luckyguy;
+           for(var i=0;i<10;i++)
+           {
+            irum[i]=document.pkc.irum[i].value;
+                 if(a==i)
+                 {
+                   luckyguy=irum[i];
+                 }
+           }
+
+        document.pkc.result.value=luckyguy;
+
+
+ }
+ function imsi2()
+ {
+
+      var irum=new Array();
+      var luckyguy=new Array();
+           var a=parseInt((Math.random()*10));
+
+
+              var luckyguy;
+              for(var i=0;i<10;i++)
+              {
+               irum[i]=document.pkc.irum[i].value;
+                    if(a==i)
+                    {
+                      luckyguy=irum[i];
+                    }
+              }
+          var b=parseInt((Math.random()*10));
+              for(var j=0;j<10;j++)
+              {
+               irum[j]=document.pkc.irum[j].value;
+                    if(b==j)
+                    {
+                      luckyguy1=irum[j];
+                    }
+              }
+
+           document.pkc.result.value=luckyguy+" "+luckyguy1;
+
+
+ }
+ function imsi3()
+ {
+
+      var irum=new Array();
+      var luckyguy=new Array();
+           var a=parseInt((Math.random()*10));
+
+
+              var luckyguy;
+              for(var i=0;i<10;i++)
+              {
+               irum[i]=document.pkc.irum[i].value;
+                    if(a==i)
+                    {
+                      luckyguy=irum[i];
+                    }
+              }
+          var b=parseInt((Math.random()*10));
+              for(var j=0;j<10;j++)
+              {
+               irum[j]=document.pkc.irum[j].value;
+                    if(b==j)
+                    {
+                      luckyguy1=irum[j];
+                    }
+              }
+              var c=parseInt((Math.random()*10));
+                  for(var w=0;w<10;w++)
+                  {
+                   irum[w]=document.pkc.irum[w].value;
+                        if(c==w)
+                        {
+                          luckyguy2=irum[w];
+                        }
+                  }
+
+           document.pkc.result.value=luckyguy+" "+luckyguy1+" "+luckyguy2;
+
+ }
+ </script>
+
+ <body>
+   <form name=pkc>
+   이름 <input type=text name=irum value=1> <p>
+	 이름 <input type=text name=irum value=2> <p>
+	 이름 <input type=text name=irum value=3> <p>
+	 이름 <input type=text name=irum value=4> <p>
+	 이름 <input type=text name=irum value=5> <p>
+	 이름 <input type=text name=irum value=6> <p>
+	 이름 <input type=text name=irum value=7> <p>
+	 이름 <input type=text name=irum value=8> <p>
+	 이름 <input type=text name=irum value=9> <p>
+	 이름 <input type=text name=irum value=10> <p>
+	 <input type=button value="오늘 밥 사는 사람 1명" onclick=imsi()>
+	 <input type=button value="오늘 밥 사는 사람 2명" onclick=imsi2()>
+	 <input type=button value="오늘 밥 사는 사람 3명" onclick=imsi3()> <p>
+	 <input type=text name=result size=40>
+   </form>
+ </body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+   function check(form) // form = document.pkc
+   {
+      var ch=0;
+	  for(i=0;i<=5;i++)
+	    if(form.age[i].checked) // checked => true, false
+		   ch=1; // 조건이 하나라도 참이면 실행
+
+	  var chk=0;
+	  for(i=0;i<=4;i++)
+	    if(form.food[i].checked)
+		   chk=1;
+
+      if(form.userid.value == "")
+	  {
+         alert("아이디가 비었습니다");
+		 return false;
+	  }
+	  else if(form.pwd.value == "")
+	       {
+              alert("비밀번호가 비었습니다");
+			  return false;
+		   }
+		   else if(ch == 0)
+	            {
+                   alert("연령체크 하세요");
+				   return false;
+				}
+				else if(chk == 0)
+	                 {
+                        alert("음식을 체크하세요")
+						return false;
+					 } 
+					 else
+					    return true;
+   }
+  </script>
+ </head>
+ <body>
+   <!-- 아이디, 비밀번호는 값을 입력하였는지를 체크하고
+     연령대와 주문음식도 마우스로 체크하였는지 검사후 전송 -->
+   <form name=pkc method=post action=a.jsp onsubmit="return check(this)">
+     아이디 <input type=text name=userid> <p>
+	 비밀번호 <input type=password name=pwd> <p>
+	 연령대 
+	   <input type=radio name=age>10대
+       <input type=radio name=age>20대
+	   <input type=radio name=age>30대
+	   <input type=radio name=age>40대
+	   <input type=radio name=age>50대
+	   <input type=radio name=age>60대  <p>
+	 주문음식
+	   <input type=checkbox name=food> 짜장면
+	   <input type=checkbox name=food> 우동
+	   <input type=checkbox name=food> 짬뽕
+	   <input type=checkbox name=food> 탕수육
+	   <input type=checkbox name=food> 라조기 <p>
+	 <input type=submit value=전송>
+   </form>
+ </body>
+</html>
+ 

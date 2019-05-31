@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+    function check()
+	{
+     //if(event.keyCode>=48 && event.keyCode<=57)
+	 if(!(event.keyCode>=48 && event.keyCode<=57))
+	  return true; // 숫자이면 실행
+	 else
+      return false; // 숫자가 아닐때 실행
+	}
+  </script>
+ </head>
+ <body>
+   <!-- 전화번호 입력은 숫자만 가능하게-->
+   <form name=pkc method=post action=a.jsp>
+    전화번호 <input type=text name=phone onkeypress="return check()">
+   </form>
+ </body>
+</html>
+ 

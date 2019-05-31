@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+
+var b=parseInt((Math.random()*45)+1);
+var b1=parseInt((Math.random()*45)+1);
+var b2=parseInt((Math.random()*45)+1);
+var b3=parseInt((Math.random()*45)+1);
+var b4=parseInt((Math.random()*45)+1);
+var b5=parseInt((Math.random()*45)+1);
+  document.pkc.lotto.value=b1;
+  document.pkc.lotto1.value=b2;
+  document.pkc.lotto2.value=b3;
+  document.pkc.lotto3.value=b4;
+  document.pkc.lotto4.value=b5;
+  document.pkc.lotto5.value=b;
+
+
+
+
+ }
+ </script>
+ <body>
+   <form name=pkc>
+  <!-- 버튼을 누르면 로또번호 6개를 입력양식에 출력 -->
+  <!-- 5게임을 출력 -->
+   <input type=button value=로또번호 onclick=imsi()> <p>
+   1게임 <input type=text name=lotto> <p>
+   2게임 <input type=text name=lotto1> <p>
+   3게임 <input type=text name=lotto2> <p>
+   4게임 <input type=text name=lotto3> <p>
+   5게임 <input type=text name=lotto4> <p>
+   6게임 <input type=text name=lotto5> <p>
+     <form>
+ </body>
+</html>

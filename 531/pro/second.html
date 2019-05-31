@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+   function bunho()
+   {
+    for(i=0;i<5;i++)
+    {
+	 var lotto=new Array(6);
+	 for(j=0;j<=5;j++)
+	   lotto[j]=parseInt(Math.random()*45)+1;
+
+     var bun="";
+     for(j=0;j<=5;j++)
+     {
+       bun=bun+lotto[j]+" ";
+    }
+     document.pkc.result[i].value=bun;
+	} // for문 끝
+   } // body에 있는 요소는 이름이 같으면 배열로 접근
+  </script>
+ </head>
+ <body>
+  <!-- 버튼을 누르면 로또번호 6개를 입력양식에 출력 -->
+  <!-- 5게임을 출력 -->
+  <form name=pkc>
+   <input type=button onclick=bunho() value=로또번호> <p>
+   1게임 <input type=text name=result> <p>
+   2게임 <input type=text name=result> <p>
+   3게임 <input type=text name=result> <p>
+   4게임 <input type=text name=result> <p>
+   5게임 <input type=text name=result> <p>
+  </form>
+ </body>
+</html>

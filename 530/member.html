@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+    function check(form) // form=document.pkc
+	{
+      var s=0;
+	  for(i=0;i<2;i++)
+	    if(form.sung[i].checked)
+		    s=1; // 체크가 되었다면 1로 변경
+
+	  var h=0;
+	  for(i=0;i<6;i++)
+	    if(form.hobby[i].checked)
+		    h=1; // 체크가 되었다면 1로 변경
+
+      if(form.userid.value == "")
+  	  {
+         alert("아이디가 비었습니다");
+		 return false;
+	  }
+	  else if(form.userid.value.length < 8)
+		   {
+              alert("아이디는 8자이상");
+			  return false;
+		   }
+		   else if(form.irum.value == "")
+		        {
+                  alert("이름을 적으세요");
+				  return false;
+				}
+				else if(form.pwd1.value == "")
+		             {
+                       alert("비밀번호를 적으세요");
+					   return false;
+					 }
+					 else if(form.pwd1.value != form.pwd2.value)
+		                  {
+                            alert("비밀번호가 틀립니다");
+							return false;
+						  }
+						  else if(s == 0)
+		                       {
+                                  alert("성별을 체크하세요");
+								  return false;
+							   }
+							   else if(h == 0)
+		                            {
+                                      alert("취미를 체크하세요");
+									  return false;
+									}
+									else if(form.year.selectedIndex == 0)
+		                                 {
+                                           alert("태어난 해를 체크하세요");
+										   return false;
+										 }
+										 else
+										   return true;
+	}
+  </script>
+ </head>
+ <body>
+   <h3> 회원가입 </h3>
+   <form name=pkc method=post action=member_ok.jsp onsubmit="return check(this)">
+     아이디 <input type=text name=userid> 8자이상<p>
+	 이 름 <input type=text name=irum> <p>
+	 비밀번호1 <input type=password name=pwd1> <p>
+	 비밀번호2 <input type=password name=pwd2> 값이 같은지 확인<p>
+	 전화번호 <input type=text name=phone> <p>
+	 성별 <input type=radio name=sung>남자
+	      <input type=radio name=sung>여자 <p>
+	 취미 <input type=checkbox name=hobby>낚시
+	      <input type=checkbox name=hobby>여행
+		  <input type=checkbox name=hobby>독서
+		  <input type=checkbox name=hobby>소주
+		  <input type=checkbox name=hobby>등산
+		  <input type=checkbox name=hobby>잠자기 <p>
+	 태어난해
+	      <select name=year>
+            <option> 선택 </option>
+	        <option> 2019 </option>
+	        <option> 2018 </option>
+	        <option> 2017 </option>
+	        <option> 2016 </option>
+	        <option> 2015 </option>
+	        <option> 2014 </option>
+	        <option> 2013 </option>
+	        <option> 2012 </option>
+		  </select> <p>
+		  <input type=submit value=회원가입>
+   </form>
+ </body>
+</html>

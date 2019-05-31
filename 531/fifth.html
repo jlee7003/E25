@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+   if(!(event.keyCode>=48 && event.keyCode<=57))
+   {
+   return false;
+   }
+   else
+   return true;
+ }
+ </script>
+
+ <body>
+   <!-- 전화번호 입력은 숫자만 가능하게-->
+   <form name=pkc method=post action=a.jsp>
+    전화번호 <input type=text name=phone onkeypress="return imsi()">
+    <!-- onkeypress 옆에 return을 입력하게 되면 return false 일 경우 누른 값을 반환 해주지 않기 때문에 입력 되지 않음 -->
+   </form>
+ </body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+    function hap()
+	{
+       var tot=document.pkc.su.value*4000;
+       document.pkc.total.value=tot;
+	}
+  </script>
+ </head>
+ <body>
+   <!-- 구입 수량입력칸에 구입개수를 입력후 blur될때 합계금액을 구하시오 -->
+   <form name=pkc>
+     금액 4,000원 
+	 구입수량 
+	  <input type=text size=2 name=su onblur=hap()> <p>
+	 합계금액 <input type=text size=5 name=total> 
+   </form>
+ </body>
+</html>
+ 

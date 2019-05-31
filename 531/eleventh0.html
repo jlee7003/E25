@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ </head>
+ <script>
+ function imsi()
+ {
+
+
+
+
+   var luckyguy;
+
+   var irum1=document.pkc.irum[0].value;
+   var irum2=document.pkc.irum[1].value;
+   var irum3=document.pkc.irum[2].value;
+   var irum4=document.pkc.irum[3].value;
+   var irum5=document.pkc.irum[4].value;
+   var irum6=document.pkc.irum[5].value;
+   var irum7=document.pkc.irum[6].value;
+   var irum8=document.pkc.irum[7].value;
+   var irum9=document.pkc.irum[8].value;
+   var irum10=document.pkc.irum[9].value;
+   var a=new Array();
+        var a=parseInt((Math.random()*10)+1);
+        alert(a);
+
+         if(a==1)
+         {
+           luckyguy=irum1;
+         }
+        else  if(a==2)
+         {
+           luckyguy=irum2;
+         }
+        else  if(a==3)
+         {
+           luckyguy=irum3;
+         }
+         else  if(a==4)
+         {
+           luckyguy=irum4;
+         }
+         else  if(a==5)
+         {
+           luckyguy=irum5;
+         }
+         else  if(a==6)
+         {
+           luckyguy=irum6;
+         }
+         else  if(a==7)
+         {
+           luckyguy=irum7;
+         }
+         else  if(a==8)
+         {
+           luckyguy=irum8;
+         }
+         else  if(a==9)
+         {
+           luckyguy=irum9;
+         }
+         else if(a==10)
+         {
+           luckyguy=irum10;
+         }
+document.pkc.result.value=luckyguy;
+
+alert(luckyguy);
+
+
+
+
+ }
+ </script>
+
+ <body>
+   <form name=pkc>
+   이름 <input type=text name=irum value=1> <p>
+	 이름 <input type=text name=irum value=2> <p>
+	 이름 <input type=text name=irum value=3> <p>
+	 이름 <input type=text name=irum value=4> <p>
+	 이름 <input type=text name=irum value=5> <p>
+	 이름 <input type=text name=irum value=6> <p>
+	 이름 <input type=text name=irum value=7> <p>
+	 이름 <input type=text name=irum value=8> <p>
+	 이름 <input type=text name=irum value=9> <p>
+	 이름 <input type=text name=irum value=10> <p>
+	 <input type=button value="오늘 밥 사는 사람 1명" onclick=imsi()>
+	 <input type=button value="오늘 밥 사는 사람 2명">
+	 <input type=button value="오늘 밥 사는 사람 3명"> <p>
+	 <input type=text name=result size=40>
+   </form>
+ </body>
+</html>

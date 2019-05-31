@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+    function check(form)
+	{
+       if(form.pwd1.value == "")
+	   {
+          alert("비밀번호가 비었습니다");
+		  return false;
+	   }
+	   else if(두개의 값이 틀리냐)
+		    {
+              alert("두개가 틀립니다");
+			  return false;
+			}
+			else
+			  return true;
+	}
+  </script>
+ </head>
+ <body>
+   <!-- 전송버튼을 누르면 비밀번호가 비었는지 체크와
+        두개의 입력값이 같은지를 체크후 전송 -->
+   <form name=pkc method=post action=a.jsp onsubmit="return check(this)">
+     비밀번호 1 <input type=password name=pwd1> <p>
+	 비밀번호 2 <input type=password name=pwd1> <p>
+	 <input type=submit value=전송>
+   </form>
+ </body>
+</html>
+ 

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+   var s=0;
+
+   if(document.pkc.food[0].checked)
+      s=1;
+    if(s==1)
+   document.pkc.jumun.value="짜장면";
+
+
+   if(document.pkc.food[1].checked)
+      s=2;
+    if(s==2)
+   document.pkc.jumun.value="우동";
+
+
+   if(document.pkc.food[2].checked)
+      s=3;
+    if(s==3)
+   document.pkc.jumun.value="짬뽕";
+
+
+   if(document.pkc.food[3].checked)
+      s=4;
+    if(s==4)
+   document.pkc.jumun.value="탕수육";
+
+
+   if(document.pkc.food[4].checked)
+      s=5;
+    if(s==5)
+   document.pkc.jumun.value="라조기";
+ }
+ </script>
+
+ <body>
+   <!-- 메뉴를 선택하고 주문하기 버튼을 누르면 주문음식칸에 메뉴를 출력하기  -->
+   <form name=pkc>
+     메뉴 <p>
+	   <input type=radio name=food> 짜장면 <br>
+	   <input type=radio name=food> 우동 <br>
+	   <input type=radio name=food> 짬뽕 <br>
+	   <input type=radio name=food> 탕수육 <br>
+	   <input type=radio name=food> 라조기
+	   <input type=button value=주문하기 onclick=imsi()> <p>
+
+	   <hr>
+	 주문음식 <input type=text name=jumun>
+   <div id=jumun1></div>
+
+   </form>
+ </body>
+</html>

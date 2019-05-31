@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+    #btn {
+      width:300px;
+	  height:40px;
+	  background:green;
+	  color:white;
+	  font-size:20px;
+	  border:1px solid green;
+	}
+  </style>
+  <script>
+    function chg1()
+	{
+      document.all.btn.style.background="white";
+	  document.all.btn.style.color="green";
+	}
+	function chg2()
+	{
+      document.all.btn.style.background="green";
+	  document.all.btn.style.color="white";
+	}  // 함수 하나로 만들기 
+  </script>
+ </head>
+ <body>
+   <!-- 마우스가 올라가면 배경색과 글자색을 반전시키시오 -->
+     <input id=btn onmouseover=chg1() onmouseout=chg2()  type=button value=전송하기>
+ </body>
+</html>
+ 

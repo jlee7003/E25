@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script> // 자바스크립트 변수선언 =>  var 변수명;
+    // 6개의 값을 저장할 공간 => 배열
+   function bunho()
+   {
+	 var lotto=new Array(6); // 자바 : 자료형이 존재
+	                       // 자바스크립트 : 자료형 X
+     /*
+	 lotto[0]=parseInt(Math.random()*45)+1; // 1~45
+	 lotto[1]=parseInt(Math.random()*45)+1;
+	 lotto[2]=parseInt(Math.random()*45)+1;
+	 lotto[3]=parseInt(Math.random()*45)+1;
+	 lotto[4]=parseInt(Math.random()*45)+1;
+	 lotto[5]=parseInt(Math.random()*45)+1;
+     */
+	 for(i=0;i<=5;i++)
+	   lotto[i]=parseInt(Math.random()*45)+1;
+
+     /*
+     var bun=lotto[0]+" "+lotto[1]+" "+lotto[2]+" "+lotto[3]+" "+lotto[4]+" "+lotto[5];
+	 */
+     var bun="";
+     for(i=0;i<=5;i++)
+       bun=bun+lotto[i]+" ";
+     /*
+	 bun=bun+lotto[0]+" ";
+	 bun=bun+lotto[1]+" ";
+	 bun=bun+lotto[2]+" ";
+	 bun=bun+lotto[3]+" ";
+	 bun=bun+lotto[4]+" ";
+	 bun=bun+lotto[5]+" ";
+     */
+     document.pkc.result.value=bun;
+     //document.pkc.result.value=lotto;
+   }
+  </script>
+ </head>
+ <body>
+  <!-- 버튼을 누르면 로또번호 6개를 입력양식에 출력 -->
+  <form name=pkc>
+   <input type=button onclick=bunho() value=로또번호>
+   <input type=text name=result>
+  </form>
+ </body>
+</html>
+

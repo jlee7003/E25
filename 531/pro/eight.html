@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+   function change()
+   {
+      // food이름을 가진 radio에서 어떤게 선택되었는지
+	  var ch;
+      for(i=0;i<5;i++)
+	    if(document.pkc.food[i].checked)
+		    ch=i;
+      // 값 전달
+	  document.pkc.jumun.value=document.pkc.food[ch].value;
+   }
+  </script>
+ </head>
+ <body>
+   <!-- 메뉴를 선택하고 주문하기 버튼을 누르면 주문음식칸에 메뉴를 출력하기  -->
+   <form name=pkc>
+     메뉴 <p>
+	   <input type=radio name=food value=짜장면> 짜장면 <br>
+	   <input type=radio name=food value=우동> 우동 <br>
+	   <input type=radio name=food value=짬뽕> 짬뽕 <br>
+	   <input type=radio name=food value=탕수육> 탕수육 <br>
+	   <input type=radio name=food value=라조기> 라조기 
+	   <input type=button onclick=change() value=주문하기> <p>
+
+	   <hr>
+	 주문음식 <input type=text name=jumun>
+   </form>
+ </body>
+</html>
+ 

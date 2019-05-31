@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function check(f)
+ {
+ //alert(f.year.selectedIndex);
+ //alert(f.year.value);//입력값과 벨류가 다르다면 벨류가 출력 된다.
+ //                   option태그 내의 value를 먼저 찾는다.
+ if(f.year.selectedIndex==0)
+  {
+    pkc.innerHTML="<b style='color:red'>선택을 안하셨습니다.</b>";
+     return false;
+  }
+ }
+
+ document.onscroll=scroll;
+ </script>
+
+ <body>
+     <form name=pkc method=post action=b.php onsubmit="return check(this)">
+                                            <!-- this는 document.pkc 를 뜻하게 됨 -->
+
+       태어난해
+       <select name=year>
+         <option> 선택 </option>
+         <option value=111> 2019 </option>
+         <option> 2018 </option>
+         <option> 2017 </option>
+         <option> 2016 </option>
+         <option> 2015 </option>
+         <option> 2014 </option>
+         <option> 2013 </option>
+         <option> 2012 </option>
+       </select>
+
+
+   <input type=submit value=전송>
+ </body>
+</html>

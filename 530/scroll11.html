@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function check(f)
+ {
+   //
+   //if(!(f.lunch[0].checked || f.lunch[1].checked ||//!-> 부정
+  //   f.lunch[2].checked || f.lunch[3].checked))
+  /*var chk=0;
+  if(f.lunch[0].checked);
+  chk=1;
+  if(f.lunch[1].checked);
+  chk=1;
+  if(f.lunch[2].checked);
+  chk=1;
+  if(f.lunch[3].checked);
+  chk=1;
+  */
+  var chk=0;
+    for(var i=0;i<4;i++)
+      if(f.lunch[i].checked)
+      chk=1;
+
+  if(chk==0)
+   {
+     alert("체크를 하세요");
+     return false;
+   }
+  // alert(f.lunch[0].checked);//체크가 되어있으면 트루 아니라면 false
+  else
+   return true;
+ }
+
+ </script>
+
+ <body>
+   <form name=pkc method=post action=b.php onsubmit="return check(this)">
+     <h3> 오늘의 점심은 무엇 입니까? <h3>
+      <input type=checkbox name=lunch value=1> 돼지국밥 <p>
+      <input type=checkbox name=lunch value=2> 짬뽕 <p>
+      <input type=checkbox name=lunch value=3> 순대국밥 <p>
+      <input type=checkbox name=lunch value=4> 라면 <p>
+
+
+      <input type=submit value=전송>
+
+ </body>
+</html>

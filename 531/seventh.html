@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+    var a=document.pkc.num1.value
+    var tot=parseInt(a*4000);
+    document.pkc.num2.value=tot;
+ }
+ </script>
+
+ <body>
+   <!-- 구입 수량입력칸에 구입개수를 입력후 blur될때 합계금액을 구하시오 -->
+   <form name=pkc>
+     금액 4,000원
+	 구입수량 <input type=text size=2 name=num1 onblur=imsi()> <p>
+	 합계금액 <input type=text size=5 name=num2>
+   </form>
+ </body>
+</html>

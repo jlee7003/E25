@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+  function check(form)//검사 함수 틀렸을 경우 전송이 안되게
+  {
+    //return false; 값이 넘어가지 않음
+  //  return true; 전송이 됨
+  //var aaa=document.pkc;
+  if(form.userid.value=="")
+  {
+  pkc1.innerHTML="<b style='color:red'> please insert ID</b>";
+    return false;
+  }
+else if(document.pkc.userid.value.length<10)
+     {
+      pkc2.innerHTML="<b style='color:red'> length error</b>";
+      return false;
+     }
+
+     else if(document.pkc.pwd.value.length<8)
+     {
+       ppkc2.innerHTML="<b style='color:red'>length error</b>";
+         return false;
+     }
+     else if(document.pkc.pwd.value="")
+     {
+       ppkc.innerHTML="<b style='color:red'> please insert your password</b>";
+         return false;
+     }
+
+     else
+     return true;
+  }
+  function imsi()
+
+{
+pkc1.innerHTML="";
+pkc2.innerHTML="";
+}
+function imsi2()
+
+{
+ppkc.innerHTML="";
+ppkc2.innerHTML="";
+}
+
+ </script>
+
+ <body>
+<form name=pkc method=post action=b.php onsubmit="return check(this)"> <!--form은 래그 태그를 가리킨다.-->
+  <!-- 리턴을 적어줘야 통과해줄지 말지 결정 할 수 있기에 return 함수명()을 입력한다. -->
+  <!--submit은 값 전송의 개념-->
+  아이디 <input type=text name="userid" onfocus="check()" onblur="imsi()"> <p> <div id=pkc1></div>  <p> <div id=pkc2></div><p>
+  비밀번호 <input type=password name=pwd onfocus="check()" onblur="imsi2()"> <p> <div id=ppkc></div> <p> <div id=ppkc2></div>
+  <input type=submit value=전송> <!--a태그,지바스크립트 로케이션,폼 태그-->
+
+</form>
+ </body>
+</html>
+<!-- 전송을 위한 버튼은 submit, button도 가능-->

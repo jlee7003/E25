@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+  function check(f)//검사 함수 틀렸을 경우 전송이 안되게
+  {
+    //return false; 값이 넘어가지 않음
+  //  return true; 전송이 됨
+  //var aaa=document.pkc;
+   var s=0;
+   for(i=0;i<2;i++)
+   if(f.sex[i].checked)
+      s=1;
+
+      var h=0;
+      for(i=0;i<2;i++)
+      if(f.hobby1[i].checked)
+         h=1;
+  if(f.userid.value=="")
+  {
+  pkc1.innerHTML="<b style='color:red'> please insert ID</b>";
+    return false;
+  }
+else if(f.userid.value.length<8)
+     {
+      pkc2.innerHTML="<b style='color:red'> length error your ID needs to be longer</b>";
+      return false;
+     }
+     else if(f.irum.value=="")
+     {
+
+       nam1.innerHTML="<b style='color:red'> name box is empty</b>";
+       return false;
+     }
+     else if(document.pkc.pwd.value=="")
+     {
+       ppkc.innerHTML="<b style='color:red'> please insert your password</b>";
+         return false;
+
+     }
+     else if(!(document.pkc.pwd.value==document.pkc.pwd2.value))
+     {
+       ppkc2.innerHTML="<b style='color:red'>your passwords are not same</b>";
+         return false;
+     }
+     else if(f.phone.value=="")
+     {
+     pho.innerHTML="<b style='color:red'>input your phone number</b>";
+       return false;
+     }
+     else if(s ==0)
+       {
+     alert("you shoud check the box1");
+     return false;
+        }
+     else if(h ==0)
+     {
+      alert("you shoud check the box2");
+     return false;
+   }
+   else if(f.year.selectedIndex==0)
+   {
+      yeayea.innerHTML="<b style='color:red'>you didn't selected year</b>";
+      return false;
+   }
+
+     else
+     return true;
+  }
+  function imsi()
+
+{
+pkc1.innerHTML="";
+pkc2.innerHTML="";
+}
+function nam()
+
+{
+nam1.innerHTML="";
+
+}
+function imsi2()
+
+{
+ppkc.innerHTML="";
+ppkc2.innerHTML="";
+}
+
+ </script>
+
+ <body>
+<form name=pkc method=post action=b.php onsubmit="return check(this)"> <!--form은 래그 태그를 가리킨다.-->
+  <!--submit은 값 전송의 개념-->
+  <h3>회원가입</h3>
+  아이디 <input type=text name="userid" onfocus="check()" onblur="imsi()"> <p>
+    <div id=pkc1></div>  <p> <div id=pkc2></div><p>
+    이 름 <input type=text name="irum" onfocus="check()" onblur="nam()"> <p> <div id=nam1></div>
+  비밀번호1 <input type=password name=pwd onfocus="check()" onblur="imsi2()"> <p>
+    <div id=ppkc></div> <p> <div id=ppkc2></div>
+  비밀번호2 <input type=password name=pwd2 > <p>
+  전화번호 <input type=text name=phone > <p> <div id=pho> </div>
+  성별 <input type=radio name=sex value=1> 남자
+  <input type=radio name=sex value=1> 여자 <p>
+  취미 <input type=checkbox name=hobby1 value=1>낚시
+  <input type=checkbox name=hobby1 value=1>여행
+  <input type=checkbox name=hobby1 value=1>독서
+  <input type=checkbox name=hobby1 value=1>소주
+  <input type=checkbox name=hobby1 value=1>등산
+  <input type=checkbox name=hobby1 value=1>잠자기 <p>
+  태어난해  <select name=year>
+    <option> 선택 </option>
+    <option> 2019 </option>
+    <option> 2018 </option>
+    <option> 2017 </option>
+    <option> 2016 </option>
+    <option> 2015 </option>
+    <option> 2014 </option>
+    <option> 2013 </option>
+    <option> 2012 </option>
+    </select> <p>
+      <div id= yeayea> </div>
+  <input type=submit value=회원가입> <!--a태그,지바스크립트 로케이션,폼 태그-->
+
+</form>
+ </body>
+</html>
+<!-- 전송을 위한 버튼은 submit, button도 가능-->

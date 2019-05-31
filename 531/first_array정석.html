@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi()
+ {
+ var a= new Array(6);
+
+ // 배열 입력하는 법
+ // var a = new Array(1,2,3);
+// var b = [1,2,3];
+// var c = new Array();
+
+for(var i=0;i<6;i++)
+{
+  a[i]=parseInt((Math.random()*45)+1);
+
+}
+  // document.pkc.lotto.value=a[0]+" "+a[1]+" "+a[2]+" "+a[3]+" "+a[4]+" "+a[5];
+
+var bun="";
+for(var i=0;i<6;i++)
+ bun=bun+a[i]+" ";
+// bun=bun+lotto[0]+" ";
+// bun=bun+lotto[1]+" ";
+// bun=bun+lotto[2]+" ";
+// bun=bun+lotto[3]+" ";
+// bun=bun+lotto[4]+" ";
+// bun=bun+lotto[5]+" ";
+
+
+
+ }
+ </script>
+ <body>
+   <form name=pkc>
+  <!-- 버튼을 누르면 로또번호 6개를 입력양식에 출력 -->
+   <input type=button value=로또번호 onclick=imsi()>
+   <input type=text name=lotto>
+ </body>
+</html>

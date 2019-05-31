@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <script>
+ function imsi(f)
+ {
+    if(f.pwd1.value != f.pwd2.value)
+    {
+    alert("not same");
+
+    return false;
+     }
+    else
+     return true;
+
+
+ }
+ </script>
+
+ <body>
+   <!-- 전송버튼을 누르면 비밀번호가 비었는지 체크와
+        두개의 입력값이 같은지를 체크후 전송 -->
+   <form name=pkc method=post action=a.jsp onsubmit="return imsi(this)">
+     비밀번호 1 <input type=password name=pwd1> <p>
+	 비밀번호 2 <input type=password name=pwd2> <p>
+	 <input type=submit value=전송>
+   </form>
+ </body>
+</html>
