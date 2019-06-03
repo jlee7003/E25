@@ -1,0 +1,67 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* 태그: 현재문서의 모든 태그에 적용 */
+  h1
+  {
+    /* 속성의 갯수는 마음대로 */
+    color:red;
+  }
+  /* ID 현재문서의 모든 아이디에 적용 */
+  #aa {
+    color:skyblue;
+  }
+  /* class */
+  .bb{
+    color:green;
+  }
+  /* hover: 마우스가 올라왔을때 기능을 추가 */
+  /* 기본선택자:hover{}에 정의 */
+  h1:hover{
+    color: pink;
+  }
+  /* nth-child */
+  /* 기본선택자:nth-child(index) */
+#aa:first-child
+  /* #aa:last-child */
+   {
+    background:black;
+  }
+#aa:last-child {
+  background:gray;
+}
+#aa:nth-child(2n){
+  background:pink;
+  font-size:30px;
+}
+  </style>
+</head>
+<body>
+  <!--스타일 시트는 html tag의 기능 추가  -->
+  <!-- body 내에 있는 추가하고자 하는 부분은 -->
+  <!-- 꼭 스타일에서 접근할 수 있는 이름을 가져야한다.. -->
+  <!-- 이름-> 선택자(Tag,ID,CLASS) -->
+
+  <!-- 차일드를 쓸경우에 블록형 태그가 있으면 먹히지 않음 -->
+  <!-- div로 묶어줘야함 -->
+  <div>
+  <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    <header id=aa>감사합니다. </header>
+    </div>
+
+
+
+    <div class=bb>더워요!</div>
+</body>
+</html>

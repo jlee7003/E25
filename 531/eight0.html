@@ -7,10 +7,10 @@
  function imsi()
  {
 for(i=0;i<5;i++)
-if(document.pkc.food[i].checked)
-    ch=i;
+if(document.pkc.food[i].checked) //라디오몇이 체크가 되었다면
+    ch=i;   //체크0은 0임
 
-    document.pkc.jumun.value=document.pkc.food[ch].value;
+    document.pkc.jumun.value=document.pkc.food[ch].value; //체크한 푸드ch의 값은 주문값으로 넘어감
  }
  </script>
 

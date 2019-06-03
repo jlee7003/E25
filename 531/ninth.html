@@ -1,27 +1,29 @@
 <!doctype html>
 <html lang="en">
- <head>
+
+<head>
   <meta charset="UTF-8">
- </head>
- <script>
- function imsi()
- {
-   var a=document.pkc.email.value
+</head>
+<script>
+  function imsi() {
+    var a = document.pkc.email.value
 
-   var b=a.indexOf("@");
+    var b = a.indexOf("@");
 
-   if(b<0)
-   err.innerText="이메일 오류";
-   else {
-     err.innerText="이메일 정상";
-   }
- }
- </script>
- <body>
-   <!--  이메일을 입력후 blur가 될때 이메일에 '@'가 있는지 확인하여 있으면 입력양식 옆에 '이메일 정상' 이라고 표시하고
+    if (b < 0)
+      err.innerText = "이메일 오류";
+    else {
+      err.innerText = "이메일 정상";
+    }
+  }
+</script>
+
+<body>
+  <!--  이메일을 입력후 blur가 될때 이메일에 '@'가 있는지 확인하여 있으면 입력양식 옆에 '이메일 정상' 이라고 표시하고
    없으면 '이메일 오류' 라고 표시한다.  -->
-   <form name=pkc>
-     이메일 <input type=text name=email onblur=imsi()> <span id=err></span>
-     </form>
- </body>
+  <form name=pkc>
+    이메일 <input type=text name=email onblur=imsi()> <span id=err></span>
+  </form>
+</body>
+
 </html>
