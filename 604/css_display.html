@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style> /* sijak/css_display.html */
+    /* 메뉴 관련 */
+	li {
+      list-style-type:none;
+      /* 점모양 없애기 */
+	}
+    #menu {
+      margin-right:30px;   
+       width:250px;
+	  height:120px;
+    border: 1px solid black;
+    /* 매뉴를 담고 있는 영역의 크기 */
+    }
+	#menu > li {
+    /* id가 menu인 태그 바로 자손 li태그만 */
+    /* 꺽쇠를 쓰면 바로 하위 목록에만 적용 */
+      float:left;
+	  margin-left:30px;
+	}
+	#menu #sub {
+    padding-left:0px;
+	  display:none;
+	}
+
+  </style>
+  <script>
+   function view(n)
+   {
+      document.all.sub[n].style.display="inline";
+   }
+   function hide(n)
+   {
+      document.all.sub[n].style.display="none";
+   }
+  </script>
+ </head>
+ <body>
+   <ul id=menu>
+     <li onmouseover=view(0) onmouseout=hide(0)>
+	   식품관련
+	   <ul id=sub>
+         <li> 수산물 </li>
+		 <li> 농산물 </li>
+		 <li> 안주류 </li>
+	   </ul>
+	 </li>
+
+	 <li onmouseover=view(1) onmouseout=hide(1)>
+	   술 관련
+	    <ul id=sub>
+         <li> 소 주 </li>
+		 <li> 양 주 </li>
+		 <li> 막걸리 </li>
+	   </ul>
+	 </li>
+   </ul>
+ </body>
+</html>
