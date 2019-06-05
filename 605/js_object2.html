@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <script> // js_object2.html
+      //setTimeout(imsi,3000); // 3초뒤에 imsi함수 실행 (1번만)
+      // setInterval(함수명,시간) : 함수가 계속 실행
+	  function imsi()
+	  {
+         alert("3초뒤에 실행");
+	  }
+	  var ch=200;
+	  function move()
+	  {
+         ch=ch-1;
+		 document.all.inner.style.marginLeft=ch+"px";
+     document.all.aa.innerText=ch;
+		 if(ch>-1000) //멈추는 조건
+		  setTimeout(move,10);
+	  }
+	  function start1()
+	  {
+         setTimeout(move,10);
+	  }
+   </script>
+ </head>
+ <body>
+    <input type=button onclick=start1() value=이동>
+    <div style="width:200px;height:30px;">
+      <!-- 넘치는 것은 숨겨서 id=inner를 움직여서  -->
+      <div id=inner style="width:1500px;height:30px;margin-left:200px;">
+         학교종이 땡땡땡 어서모이자 선생님이 우리를 기다리신다.. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세!!  오늘은 즐거운 수요일!!
+	  </div>
+	</div>
+  ch값: <span id=aa></span>
+ </body>
+</html>
