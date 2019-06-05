@@ -1,0 +1,54 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+  //body내의 요소들을 동적으로 표현
+  //<요소의 이벤트명=함수명>
+//1.안녕하세요 클릭하면 배경색을 노란색으로
+// id=my_sogae 스타일 display:none 우리집 소개를 누르면 보이기
+
+//src="1.jpg" 그림을 클릭하면 변하게
+
+//id=cc를 누르면 경고창으로 메롱하기
+
+function yellowback(hihi)
+{
+ hihi.style.background="yellow";
+}
+function show()
+{
+ document.all.my_sogae.style.display="block";
+}
+function shana(pp)
+{
+ pp.src="2.jpg"
+}
+function shana1(aa)
+{
+ aa.src="1.jpg"
+}
+function alertq()
+{
+  alert("메롱");
+}
+</script>
+</head>
+<body >
+  <form name=pkc>
+
+
+<h1 onclick=yellowback(this) name=hello> 안녕하세요 나의 페이지입니다.</h1>
+<div id=my onclick=show()>여기는 우리집 소개입니다.</div>
+<div id=my_sogae style="display:none">
+  주소: 고양시 일산서구 <br>
+  방 :4개 <br>
+  평수 :30평 <br>
+  TV : 2대
+
+</div> <p>
+  <img id=imm src="1.jpg" width=280 height=300 onmouseover=shana(this) onmouseout="shana1(this)"> <p>
+    <div id=cc onclick=alertq()>여기를 누르지 마세요</div>
+    </form>
+    </body>
+</html>
+<!--  -->

@@ -441,3 +441,11 @@
 [Tue Jun 04 08:53:14 2019] [notice] Child 2480: Acquired the start mutex.
 [Tue Jun 04 08:53:14 2019] [notice] Child 2480: Starting 150 worker threads.
 [Tue Jun 04 08:53:14 2019] [notice] Child 2480: Starting thread to listen on port 80.
+[Wed Jun 05 09:00:54 2019] [warn] pid file C:/APM_Setup/Server/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 05 09:00:56 2019] [notice] Apache/2.2.14 (Win32) configured -- resuming normal operations
+[Wed Jun 05 09:00:56 2019] [notice] Server built: Sep 29 2009 19:29:00
+[Wed Jun 05 09:00:56 2019] [notice] Parent: Created child process 2484
+[Wed Jun 05 09:00:58 2019] [notice] Child 2484: Child process is running
+[Wed Jun 05 09:00:58 2019] [notice] Child 2484: Acquired the start mutex.
+[Wed Jun 05 09:00:58 2019] [notice] Child 2484: Starting 150 worker threads.
+[Wed Jun 05 09:00:58 2019] [notice] Child 2484: Starting thread to listen on port 80.
