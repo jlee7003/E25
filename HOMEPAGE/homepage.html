@@ -114,10 +114,21 @@
   align-items: center;
   display: flex;
 }
-#catesize:hover
+#catesize > a
 {
-  color: #eeeeee;
+  text-decoration:none;
+  color: gray;
 }
+  #catesize > a:hover
+  {
+
+    color: #eeeeee;
+  }
+  #catesize:hover
+  {
+
+    color: #eeeeee;
+  }
 #cate #right
 {
   display:flex;
@@ -306,6 +317,7 @@
 }
 #foot #footbox
 {
+  padding-top: 90px;
   margin: auto;
   width:533.3px;
   height:600px;
@@ -328,14 +340,14 @@
 }
 #foot #footbox2 #boxbox
 {
-
+padding-top: 90px;
   width:177.7px;
   height:300px;
   border: 1px solid blue;
 }
 #foot #footbox2 #footsubbox
 {
-
+padding-top: 90px;
   width:533px;
   height:300px;
   border: 1px solid blue;
@@ -370,7 +382,7 @@
     <div id=cate>
       <div id=left>
         <div id=catesize>LOGIN</div>
-        <div id=catesize>JOIN US</div>
+        <div id=catesize ><a href="file:///C:/APM_Setup/HOMEPAGE/join%20us.html" target=sou> JOIN US </a></div>
         <div id=catesize>CART(0)</div>
         <div id=catesize>ORDER</div>
         <div id=catesize>MYPAGE</div>
