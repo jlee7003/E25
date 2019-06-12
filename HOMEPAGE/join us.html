@@ -7,7 +7,7 @@
     margin: auto;
     width:100%;
     height:4000px;
-    border: 1px solid blue;
+    border: 0px solid blue;
   }
 #asclo
 {
@@ -431,6 +431,7 @@ transition: all 0.15s ease;
 }
 #foot #footbox2 #boxbox
 {
+
   width:177.7px;
   height:300px;
   border: 1px solid blue;
@@ -451,12 +452,33 @@ transition: all 0.15s ease;
 }
  </style>
   <script>
+function imsi(qq)
+{
+   var id=document.e25.userid.value;
+    if(document.e25.userid.value=="")
+    {
+    document.all.txt.innerText="아이디를 입력하십시오";
+    alert("아이디를 입력해주세요");
+    return false;
+    }
+    else if(document.e25.userid.value!="")
+    {
+    document.all.txt.innerText= id+"은 사용하실수 있는 아이디입니다.";
+    }
+    else if(document.e25.userid.value.length<8)
+    {
+      document.all.txt.innerText="아이디의 길이를 8자 이상으로 해주세요";
+      alert("아이디의 길이를 8자 이상으로 해주세요")
+      return false;
+    }
 
+
+}
 
   </script>
  </head>
  <body>
-   <form name=e25 method=post action=homepage.html onsubmit="return check(this)"
+   <form name=e25 method=post action=loginsuccess.html onsubmit="return imsi(this)"
    <div id=main>
 <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
   <div id=asclo>
@@ -512,7 +534,7 @@ transition: all 0.15s ease;
     <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
  <div id=body>
   <div id=part1>
-    <div id=part11> home  membership </div>
+    <div id=part11> home > membership </div>
     <div id=part12> <div id=regist>REGIST</div></div>
   </div>
   <div id=bbox1>
@@ -524,8 +546,8 @@ transition: all 0.15s ease;
   <div id=right>*필수입력사항</div>
   </div>
   <div id=bbox1>
-    <div id=left name=userid>&nbsp;아이디*</div>
-    <div id=right><input type="text">(영문소문자/숫자,4~16자)</div>
+    <div id=left >&nbsp;아이디*</div>
+    <div id=right><input onblur="imsi()" name=userid type="text"><div id=txt>(영문소문자/숫자,4~16자)</div></div>
   </div>
   <div id=bbox1>
     <div id=left>&nbsp;비밀번호*</div>
@@ -763,7 +785,7 @@ sms 수신을 동의하십니까? <input type="checkbox"> 동의함 <br>
 이메일 수신을 동의하십니까? <input type="checkbox"> 동의함<p>
 </div>
 <div id=join>
-  <div id=mbutton>회원가입</div>
+  <input id=mbutton type=submit value=회원가입></input>
 </div>
 
 
@@ -871,6 +893,6 @@ sms 수신을 동의하십니까? <input type="checkbox"> 동의함 <br>
   <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
 
 </div>
-
+</form>
  </body>
 </html>
