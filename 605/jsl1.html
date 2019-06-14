@@ -2,34 +2,30 @@
 <head>
   <meta charset="UTF-8">
   <script>
-    //문서를 읽을때 실행 하고자 한다.
-    function init()//BODY내의 요소에 접근 문서를 읽일때 onload
-     {             //요소 이벤트명=함수명>방식으로 실행
-    // 자바스크립트에서 태그를 부르는 방법.
-    document.getElementsByTagName("div")[0].style.color="blue";  // 무조건 배열로 불러야함
-    document.getElementsByTagName("div")[1].style.color="red";
-    document.getElementsByTagName("b")[0].style.fontSize="20px";//하나 밖에 없어도 배열로 지정해줘야함
 
-                                         // 첫번쨰 div가 div[0]번이 되고 순서되로 [1]...[2]....[3] 이런식으로 됨
-    //자바스크립트에서 class를 부르는 방법-> 무조건 배열
-    document.getElementsByClassName("bb")[0].style.background="yellow";
-    document.getElementsByClassName("bb")[1].style.background="pink";
-      //자바스크립트에서 ID를 부르는 방법
-      //1.무조건 첫번째 꺼 , 배열 x
-    document.getElementById("aa").style.color="green"; //하나만 인식
-      //자바스크립트에서 ID를 부르는 방법
-      //2.배열 가능 ,옛날꺼
-    document.all.cc.style.color="pink";//하나일때는 단수
-      document.all.aa[1].style.border="1px solid pink"; //2개일때는 배열로 사용
     }
 </script>
 </head>
-<body onload=init()> <!-- 문서를 읽을떄 init()함수를 실행 -->
-<div>안녕하세요 </div> <p>
-<b>홍길동</b> <u>슈퍼맨</u> <p>
-<span id=aa>하하하</span> <span id=aa>하하하</span> <p>
-  <div class=bb> 감자탕</div>   <div class=bb> 돼지국밥</div>
-  <div id=cc>우우ㅏㅇ눟ㅎㄴ</div>
+  <form method=post action="a.jsp">
+    아이디 <input type="text" name=userid>
+    비밀번호1 <input type="password" name=pwd1>
+    비밀번호2 <input type="password" name=pwd2>
+
+    경로    <input type="radio" name=course> 인터넷
+            <input type="radio" name=course> 친구
+            <input type="radio" name=course> 전단지
+            <input type="radio" name=course> 그외 <p>
+    직종    <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+            <input type="checkbox" name=jik>
+
+    태어난해
+         select>option*
+  </form>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `anthony`.`member`.`name` AS `name`,`anthony`.`member`.`id` AS `id` from `anthony`.`member`
+md5=adc60ff36841d19cc45dc9bd98f71167
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2019-06-14 06:13:48
+create-version=1
+source=select name,id from member
+client_cs_name=latin1
+connection_cl_name=latin1_swedish_ci
+view_body_utf8=select `anthony`.`member`.`name` AS `name`,`anthony`.`member`.`id` AS `id` from `anthony`.`member`

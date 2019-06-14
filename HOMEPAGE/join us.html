@@ -452,18 +452,15 @@ transition: all 0.15s ease;
 }
  </style>
   <script>
+
 function imsi(qq)
 {
-   var id=document.e25.userid.value;
+
     if(document.e25.userid.value=="")
     {
     document.all.txt.innerText="아이디를 입력하십시오";
     alert("아이디를 입력해주세요");
     return false;
-    }
-    else if(document.e25.userid.value!="")
-    {
-    document.all.txt.innerText= id+"은 사용하실수 있는 아이디입니다.";
     }
     else if(document.e25.userid.value.length<8)
     {
@@ -471,9 +468,34 @@ function imsi(qq)
       alert("아이디의 길이를 8자 이상으로 해주세요")
       return false;
     }
-
+    else if(document.e25.passwd.value=="")
+    {
+    document.all.pwd.innerText="비밀번호를 입력하십시오";
+    alert("비밀번호를 입력해주세요");
+    return false;
+    }
+    else if(document.e25.passwd.value.length<8)
+    {
+      document.all.pwd.innerText="비밀번호의 길이를 8자 이상으로 해주세요";
+      alert("비밀번호의 길이를 8자 이상으로 해주세요")
+      return false;
+    }
+    else if(!(document.e25.passwd.value == document.e25.pwdok.value))
+    {
+       document.all.pwdok.innerText="(비밀번호가 같지 않습니다.)";
+    }
 
 }
+function imsi1()
+{
+    var id=document.e25.userid.value;
+  if(document.e25.userid.value!="" && document.e25.userid.value.length>=8)
+  {
+  document.all.txt.innerText= id+"은 사용하실수 있는 아이디입니다.";
+  }
+
+}
+
 
   </script>
  </head>
@@ -547,15 +569,15 @@ function imsi(qq)
   </div>
   <div id=bbox1>
     <div id=left >&nbsp;아이디*</div>
-    <div id=right><input onblur="imsi()" name=userid type="text"><div id=txt>(영문소문자/숫자,4~16자)</div></div>
+    <div id=right><input  onblur="imsi1()" name=userid type="text"><div id=txt>(영문소문자/숫자,4~16자)</div></div>
   </div>
   <div id=bbox1>
     <div id=left>&nbsp;비밀번호*</div>
-    <div id=right><input type="password">(영문 대소문자/숫자/특수문자 중 2가지 이상 조합,8자~16자)</div>
+    <div id=right><input type="password" name=passwd ><div id=pwd>(영문 대소문자/숫자/특수문자 중 2가지 이상 조합,8자~16자)</div></div>
   </div>
   <div id=bbox1>
     <div id=left>&nbsp;비밀번호 확인*</div>
-    <div id=right><input type="password"></div>
+    <div id=right><input type="password" name=pwdok ><div id=pwdok></div></div>
   </div>
   <div id=bbox1>
     <div id=left>&nbsp;비밀번호 확인 <p> 질문*</div>
