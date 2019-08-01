@@ -8,6 +8,30 @@
           {
               setTimeout(function()
               {
-                window.location="http://www.naver.com";
+                window.location="http://www.naver.com";    -> setTimeout(function(){},2000); 이거랑 
               }, 3000);
           }
+          
+          혹은 이렇게 하는 법이 있다.
+          
+           function move()
+           {
+             location="http://www.naver.com";
+           }
+           setTimeout(move<-함수,3000);
+
+--------------------------------------------------------------------------------------
+ 
+ 문서를 읽을때 함수 호출하기
+ 
+ 1.
+ 
+    function test()
+    {
+      alert();
+    }
+    test();
+ 
+ 2. body에 onload 입력하기
+ 
+ 3. window.onload=function() 사용하기
