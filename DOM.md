@@ -14,7 +14,7 @@
       </body>
     </html>
 
-<h3>(2) DOM과 BOM<h3>
+<h3>(2) DOM과 BOM</h3>
   
   -> html 문서를 객체로 표현한것을 dom 
      웹브라우저 객체로 표현한것이 bom
